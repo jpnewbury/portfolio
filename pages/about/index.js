@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Newbury Angling Arts and Design - Illustration Portfolio</title>
+        <title>Newbury Arts and Design - Illustration Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
           property="og:title"
@@ -44,12 +44,16 @@ export default function Home() {
                 },
               }}
             >
-              <Image
-                src="/images/logo.png"
-                alt="Newbury Angling Arts and Design - Portfolio"
-                height={320}
-                width={300}
-              />
+              <Link href="/">
+                <a>
+                  <Image
+                    src="/images/logo.png"
+                    alt="Newbury Angling Arts and Design - Portfolio"
+                    height={320}
+                    width={300}
+                  />
+                </a>
+              </Link>
             </motion.div>
             <div>
               <Image
