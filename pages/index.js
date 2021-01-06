@@ -61,8 +61,8 @@ export default function Home() {
               <Image
                 src="/images/logo.png"
                 alt="Newbury Angling Arts and Design - Portfolio"
-                height={300}
-                width={300}
+                height={500}
+                width={500}
               />
             </motion.div>
             <div>

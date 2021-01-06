@@ -4,6 +4,44 @@ $gray: #808080;
 $font: "Rubik", sans-serif;
 $body: "Lato", sans-serif;
 
+//ACCESABILITY OPTIONS
+@media screen and (prefers-reduced-motion: reduce) {
+    * {
+        /* Very short durations means JavaScript that relies on events still works */
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+    }
+}
+
+/* When the browser is at least 600px and above */
+@media screen and (min-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        max-width: 1200px;
+        margin: auto;
+        height: 100vh;
+    }
+    .header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/* When the browser is at less than 600px */
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 600px;
+        margin: auto;
+        height: 100vh;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -47,16 +85,4 @@ p {
     grid-template-columns: 1fr 3fr 1fr;
     max-width: 900px;
     margin: 20px 40px;
-}
-.container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    max-width: 1200px;
-    margin: auto;
-    height: 100vh;
-}
-.header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 }

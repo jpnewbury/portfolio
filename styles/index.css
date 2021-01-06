@@ -1,4 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?familyLato&=Rubik:wght@400;500;600;700;900&display=swap");
+@media screen and (prefers-reduced-motion: reduce) {
+  * {
+    /* Very short durations means JavaScript that relies on events still works */
+    -webkit-animation-duration: 0.001ms !important;
+            animation-duration: 0.001ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    -webkit-transition-duration: 0.001ms !important;
+            transition-duration: 0.001ms !important;
+  }
+}
+
+/* When the browser is at least 600px and above */
+@media screen and (min-width: 600px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    max-width: 1200px;
+    margin: auto;
+    height: 100vh;
+  }
+  .header {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* When the browser is at less than 600px */
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 600px;
+    margin: auto;
+    height: 100vh;
+  }
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -66,27 +120,5 @@ p {
       grid-template-columns: 1fr 3fr 1fr;
   max-width: 900px;
   margin: 20px 40px;
-}
-
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  max-width: 1200px;
-  margin: auto;
-  height: 100vh;
-}
-
-.header {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
 }
 /*# sourceMappingURL=index.css.map */

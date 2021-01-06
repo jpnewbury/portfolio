@@ -23,15 +23,8 @@ export default function Home() {
       <div className="container">
         <div className="center1">
           <div className="header">
-            <div>
-              <Image
-                src="/images/header_illustrate.png"
-                alt="Newbury Angling Arts and Design - Portfolio"
-                height={250}
-                width={400}
-              />
-            </div>
             <motion.div
+              className="center"
               initial="hidden"
               animate="visible"
               variants={{
@@ -58,94 +51,41 @@ export default function Home() {
                 width={300}
               />
             </motion.div>
+            <div>
+              <Image
+                src="/images/illustrate_header.png"
+                alt="Newbury Angling Arts and Design - Portfolio"
+                height={250}
+                width={400}
+              />
+            </div>
           </div>
         </div>
-        <div className="center1">
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={{
-              hidden: {
-                scale: 0.1,
-                opacity: 0,
-              },
-              visible: {
-                scale: 1,
-                opacity: 1,
-                transition: {
-                  delay: 0.15,
-                  duration: 0.65,
-                  type: "spring",
-                  stiffness: 120,
-                },
-              },
-            }}
-          >
+        <div className="caontainer">
+          <div className="center">
             <Image
               src="/images/chiliCard.png"
-              alt="Newbury Angling Arts and Design - Portfolio"
-              height={700}
-              width={550}
+              alt="Illusttated chili recipe"
+              height={826}
+              width={660}
             />
-          </motion.div>
-        </div>
-        <div className="center1">
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={{
-              hidden: {
-                scale: 0.1,
-                opacity: 0,
-              },
-              visible: {
-                scale: 1,
-                opacity: 1,
-                transition: {
-                  delay: 0.25,
-                  duration: 0.5,
-                },
-              },
-            }}
-          >
+          </div>
+          <div className="center">
             <Image
               src="/images/nymphs.png"
-              alt="Newbury Angling Arts and Design - Portfolio"
-              height={420}
-              width={300}
+              alt="Macroinvertebrate illustrations"
+              height={826}
+              width={660}
             />
-          </motion.div>
-        </div>
-        <div className="center1">
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={{
-              hidden: {
-                scale: 0.1,
-                opacity: 0,
-              },
-              visible: {
-                scale: 1,
-                opacity: 1,
-                transition: {
-                  delay: 0.25,
-                  duration: 0.5,
-                },
-              },
-            }}
-          >
-            <Link href="/">
-              <a>
-                <Image
-                  src="/images/fineart.png"
-                  alt="Newbury Angling Arts and Design - Portfolio"
-                  height={840}
-                  width={500}
-                />
-              </a>
-            </Link>
-          </motion.div>
+          </div>
+          <div className="center">
+            <Image
+              src="/images/fineart.png"
+              alt="fine art paintings"
+              height={1090}
+              width={674}
+            />
+          </div>
         </div>
         <div className="container">
           <div className="col-3">
@@ -155,7 +95,7 @@ export default function Home() {
                   <motion.img
                     width="100px"
                     src="/images/left_arrow.png"
-                    alt="Newbury Angling Arts and Design - Portfolio"
+                    alt="go baack a page"
                     whileHover={{
                       position: "relative",
                       zIndex: 1,
@@ -171,8 +111,24 @@ export default function Home() {
             </div>
             <div></div>
             <div>
-              {" "}
-              <img src="/images/right_arrow.png" width="100px" />
+              <Link href="/design">
+                <a>
+                  <motion.img
+                    width="100px"
+                    src="/images/right_arrow.png"
+                    alt="go forward a page"
+                    whileHover={{
+                      position: "relative",
+                      zIndex: 1,
+                      scale: [1, 1.3, 1.1],
+                      rotate: [0, 10, -10, 0],
+                      transition: {
+                        duration: 0.2,
+                      },
+                    }}
+                  />
+                </a>
+              </Link>
             </div>
           </div>
         </div>
