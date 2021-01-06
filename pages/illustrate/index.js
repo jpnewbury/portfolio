@@ -44,7 +44,7 @@ export default function Home() {
                 },
               }}
             >
-              <Link src="/">
+              <Link href="/">
                 <a>
                   <Image
                     src="/images/logo.png"
