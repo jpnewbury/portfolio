@@ -31,6 +31,7 @@ class App extends React.Component {
               <div className="center1">
                 <div className="header">
                   <motion.div
+                    className="center"
                     initial="hidden"
                     animate="visible"
                     variants={{
