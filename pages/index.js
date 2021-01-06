@@ -1,5 +1,16 @@
-import Gallery from '../components/Gallery'
+import React, { Component } from "react";
+class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+  render() {
+    return (
+      <div>
+        <h1> Hello</h1>
+      </div>
+    );
+  }
+}
 
-const Index = () => <Gallery />
-
-export default Index
+export default Home;
