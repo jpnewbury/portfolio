@@ -49,14 +49,17 @@ $body: "Lato", sans-serif;
 h1 {
     font-family: $font;
     font-weight: 900;
+    padding: 5px 20px;
 }
 h2 {
     font-family: $font;
     font-weight: 700;
+    padding: 5px 20px;
 }
 h3 {
     font-family: $font;
     font-weight: 500;
+    padding: 5px 20px;
 }
 p {
     font-family: $body;

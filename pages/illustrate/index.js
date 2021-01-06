@@ -44,12 +44,16 @@ export default function Home() {
                 },
               }}
             >
-              <Image
-                src="/images/logo.png"
-                alt="Newbury Angling Arts and Design - Portfolio"
-                height={320}
-                width={300}
-              />
+              <Link src="/">
+                <a>
+                  <Image
+                    src="/images/logo.png"
+                    alt="Newbury Angling Arts and Design - Portfolio"
+                    height={320}
+                    width={300}
+                  />
+                </a>
+              </Link>
             </motion.div>
             <div>
               <Image
