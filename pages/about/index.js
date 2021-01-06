@@ -114,12 +114,12 @@ export default function Home() {
               </p>
               <p>
                 In 2010 I closed my web development practice and returned to
-                school. I earned degrees in environmental science / fisheries.
-                After graduation, I relocated to my childhood home of Colorado
-                to pursuit a new career path in something fishy such as guiding
-                or as a biologist. In the meantime, I developed a handful
-                popular fly patterns with global sales by Fullingmill and
-                continue to build my fly fishing brand.
+                school. I earned degrees in environmental science and in
+                fisheries. After graduation, I relocated to my childhood home of
+                Colorado to pursuit a new career path in something fishy such as
+                guiding or as a biologist. In the meantime, I developed a
+                handful popular fly patterns with global sales by Fullingmill
+                and continue to build my fly fishing brand.
               </p>
               <p>
                 While waiting for the the trout to bite, I grow restless.
