@@ -1,92 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?familyLato&=Rubik:wght@400;500;600;700;900&display=swap");
+$yellow: #f5e163;
+$gray: #808080;
+$font: "Rubik", sans-serif;
+$body: "Lato", sans-serif;
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 h1 {
-    font-family: "Rubik", sans-serif;
+    font-family: $font;
     font-weight: 900;
 }
-
 h2 {
-    font-family: "Rubik", sans-serif;
+    font-family: $font;
     font-weight: 700;
 }
-
 h3 {
-    font-family: "Rubik", sans-serif;
+    font-family: $font;
     font-weight: 500;
 }
-
 p {
-    font-family: "Lato", sans-serif;
+    font-family: $body;
     padding: 5px 20px;
     line-height: 1.35rem;
 }
 
 .center {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     margin: auto;
 }
 
 .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
-    max-width: 1000px;
+    max-width: 1200px;
+    margin: auto;
+    height: 100vh;
 }
-
-.main {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-}
-
-.col-2 {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-}
-
-.col-3 {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 10% 80% 10%;
-    grid-template-columns: 10% 80% 10%;
-    max-width: 900px;
-    margin: 20px 40px;
-}
-
 .header {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
 }
-
-.stacked {
-    max-width: 500px;
-    display: -ms-grid;
-    display: grid;
-}
-
-.stacked a {
-    cursor: pointer;
-}
-
-.slug {
-    margin: 10px 20px;
-}
-/*# sourceMappingURL=index.css.map */
