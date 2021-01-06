@@ -21,19 +21,15 @@ class App extends React.Component {
       <main>
         <>
           {this.state.isLoading ? (
-            <h1>Loading.....</h1>
+            <div className="container">
+              <div className="center">
+                <h1>Loading.....</h1>
+              </div>
+            </div>
           ) : (
             <div className="container">
               <div className="center1">
                 <div className="header">
-                  <div>
-                    <Image
-                      src="/images/design_header.png"
-                      alt="Newbury Angling Arts and Design - Portfolio"
-                      height={250}
-                      width={400}
-                    />
-                  </div>
                   <motion.div
                     initial="hidden"
                     animate="visible"
@@ -61,6 +57,14 @@ class App extends React.Component {
                       width={300}
                     />
                   </motion.div>
+                  <div>
+                    <Image
+                      src="/images/design_header.png"
+                      alt="Newbury Angling Arts and Design - Portfolio"
+                      height={250}
+                      width={400}
+                    />
+                  </div>
                 </div>
               </div>
               <div className="center1">
