@@ -243,6 +243,37 @@ class App extends React.Component {
                   <Link href="/">
                     <a>
                       <Image
+                        src="/images/logomock.png"
+                        alt="Newbury Angling Arts and Design - Portfolio"
+                        height={800}
+                        width={800}
+                      />
+                    </a>
+                  </Link>
+                </motion.div>
+              </div>
+              <div className="center1">
+                <motion.div
+                  initial="hidden"
+                  animate="visible"
+                  variants={{
+                    hidden: {
+                      scale: 0.1,
+                      opacity: 0,
+                    },
+                    visible: {
+                      scale: 1,
+                      opacity: 1,
+                      transition: {
+                        delay: 0.25,
+                        duration: 0.5,
+                      },
+                    },
+                  }}
+                >
+                  <Link href="/">
+                    <a>
+                      <Image
                         src="/images/PagosaDistillarylabel.png"
                         alt="Newbury Angling Arts and Design - Portfolio"
                         height={1000}
