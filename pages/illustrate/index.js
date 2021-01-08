@@ -86,7 +86,7 @@ export default function Home() {
             <Image
               src="/images/fishbowl.png"
               alt="fine art paintings"
-              height={500}
+              height={490}
               width={600}
             />
           </div>
