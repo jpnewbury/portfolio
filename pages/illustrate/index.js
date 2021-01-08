@@ -84,10 +84,10 @@ export default function Home() {
           </div>
           <div className="center">
             <Image
-              src="/images/fineart.png"
+              src="/images/fishbowl.png"
               alt="fine art paintings"
-              height={1090}
-              width={674}
+              height={500}
+              width={600}
             />
           </div>
         </div>
