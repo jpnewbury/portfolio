@@ -2,6 +2,8 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Navbar from "../../components/navbar";
+
 export default function Home() {
   return (
     <div>
@@ -56,15 +58,16 @@ export default function Home() {
               </Link>
             </motion.div>
             <div>
-              <Image
+              {/* <Image
                 src="/images/about_header.png"
                 alt="Newbury Angling Arts and Design - Portfolio"
                 height={250}
                 width={400}
-              />
+              /> */}
             </div>
           </div>
         </div>
+        <Navbar />
         <div className="caontainer">
           <div className="center">
             <div className="slug">

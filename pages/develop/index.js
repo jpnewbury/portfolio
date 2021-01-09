@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
+import Navbar from "../../components/navbar";
 class App extends React.Component {
   constructor() {
     super();
@@ -63,15 +64,16 @@ class App extends React.Component {
                     </Link>
                   </motion.div>
                   <div>
-                    <Image
+                    {/* <Image
                       src="/images/develop_header.png"
                       alt="Newbury Angling Arts and Design - Portfolio"
                       height={250}
                       width={400}
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>
+              <Navbar />
               <div className="center1">
                 <motion.div
                   initial="hidden"

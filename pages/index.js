@@ -1,6 +1,7 @@
 import Head from "next/head";
-import Link from "next/link";
+
 import Image from "next/image";
+import Navbar from "../components/navbar";
 import { motion } from "framer-motion";
 export default function Home() {
   return (
@@ -65,28 +66,9 @@ export default function Home() {
                 width={500}
               />
             </motion.div>
-            <div>
-              <Link href="/illustrate">
-                <a>
-                  <motion.img
-                    width="300px"
-                    src="/images/btn_portfolio.png"
-                    alt="Newbury Angling Arts and Design - Portfolio"
-                    whileHover={{
-                      position: "relative",
-                      zIndex: 1,
-                      scale: [1, 1.3, 1.1],
-                      rotate: [0, 10, -10, 0],
-                      transition: {
-                        duration: 0.2,
-                      },
-                    }}
-                  />
-                </a>
-              </Link>
-            </div>
           </div>
         </div>
+        <Navbar />
       </div>
     </div>
   );

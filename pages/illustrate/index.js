@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Navbar from "../../components/navbar";
 export default function Home() {
   return (
     <div>
@@ -56,15 +57,16 @@ export default function Home() {
               </Link>
             </motion.div>
             <div>
-              <Image
+              {/* <Image
                 src="/images/illustrate_header.png"
                 alt="Newbury Angling Arts and Design - Portfolio"
                 height={250}
                 width={400}
-              />
+              /> */}
             </div>
           </div>
         </div>
+        <Navbar />
         <div className="caontainer">
           <div className="center">
             <Image
@@ -82,7 +84,184 @@ export default function Home() {
               width={660}
             />
           </div>
-          <div className="center">
+          <div className="center1">
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={{
+                hidden: {
+                  scale: 0.1,
+                  opacity: 0,
+                },
+                visible: {
+                  scale: 1,
+                  opacity: 1,
+                  transition: {
+                    delay: 0.15,
+                    duration: 0.65,
+                    type: "spring",
+                    stiffness: 120,
+                  },
+                },
+              }}
+            >
+              <Image
+                src="/images/book.png"
+                alt="Newbury Angling Arts and Design - Portfolio"
+                height={1666}
+                width={1066}
+              />
+            </motion.div>
+          </div>
+          <div className="center1">
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={{
+                hidden: {
+                  scale: 0.1,
+                  opacity: 0,
+                },
+                visible: {
+                  scale: 1,
+                  opacity: 1,
+                  transition: {
+                    delay: 0.25,
+                    duration: 0.5,
+                  },
+                },
+              }}
+            >
+              <Image
+                src="/images/poster.png"
+                alt="Newbury Angling Arts and Design - Portfolio"
+                height={1266}
+                width={1156}
+              />
+            </motion.div>
+          </div>
+          <div className="center1">
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={{
+                hidden: {
+                  scale: 0.1,
+                  opacity: 0,
+                },
+                visible: {
+                  scale: 1,
+                  opacity: 1,
+                  transition: {
+                    delay: 0.25,
+                    duration: 0.5,
+                  },
+                },
+              }}
+            >
+              <Link href="/">
+                <a>
+                  <Image
+                    src="/images/troutstream.png"
+                    alt="Newbury Angling Arts and Design - Portfolio"
+                    height={1058}
+                    width={826}
+                  />
+                </a>
+              </Link>
+            </motion.div>
+          </div>
+          <div className="center1">
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={{
+                hidden: {
+                  scale: 0.1,
+                  opacity: 0,
+                },
+                visible: {
+                  scale: 1,
+                  opacity: 1,
+                  transition: {
+                    delay: 0.25,
+                    duration: 0.5,
+                  },
+                },
+              }}
+            >
+              <Link href="/">
+                <a>
+                  <Image
+                    src="/images/castlevalley.png"
+                    alt="Newbury Angling Arts and Design - Portfolio"
+                    height={1900}
+                    width={2585}
+                  />
+                </a>
+              </Link>
+            </motion.div>
+          </div>
+          <div className="center1">
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={{
+                hidden: {
+                  scale: 0.1,
+                  opacity: 0,
+                },
+                visible: {
+                  scale: 1,
+                  opacity: 1,
+                  transition: {
+                    delay: 0.25,
+                    duration: 0.5,
+                  },
+                },
+              }}
+            >
+              <Link href="/">
+                <a>
+                  <Image
+                    src="/images/bridgecity.png"
+                    alt="Newbury Angling Arts and Design - Portfolio"
+                    height={490}
+                    width={1066}
+                  />
+                </a>
+              </Link>
+            </motion.div>
+          </div>
+          <div className="center1">
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={{
+                hidden: {
+                  scale: 0.1,
+                  opacity: 0,
+                },
+                visible: {
+                  scale: 1,
+                  opacity: 1,
+                  transition: {
+                    delay: 0.25,
+                    duration: 0.5,
+                  },
+                },
+              }}
+            >
+              <Image
+                src="/images/artboard.png"
+                alt="Newbury Angling Arts and Design - Portfolio"
+                height={1300}
+                width={800}
+              />
+            </motion.div>
+          </div>
+
+          <div className="center1">
             <Image
               src="/images/fishbowl.png"
               alt="fine art paintings"
@@ -91,6 +270,7 @@ export default function Home() {
             />
           </div>
         </div>
+
         <div className="container">
           <div className="col-3">
             <div>
@@ -115,7 +295,7 @@ export default function Home() {
             </div>
             <div></div>
             <div>
-              <Link href="/design">
+              <Link href="/develop">
                 <a>
                   <motion.img
                     width="100px"

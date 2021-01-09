@@ -63,12 +63,12 @@ class App extends React.Component {
                     </Link>
                   </motion.div>
                   <div>
-                    <Image
+                    {/* <Image
                       src="/images/design_header.png"
                       alt="Newbury Angling Arts and Design - Portfolio"
                       height={250}
                       width={400}
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>

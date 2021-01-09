@@ -260,4 +260,38 @@ p {
   -webkit-text-stroke-width: 6px;
   -webkit-text-stroke-color: white;
 }
+
+.navbar {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  gap: 20px;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  color: #808080;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  text-shadow: 1px 2px 3px;
+}
+
+.navbar a:hover {
+  color: black;
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
 /*# sourceMappingURL=index.css.map */
