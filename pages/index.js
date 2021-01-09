@@ -66,9 +66,9 @@ export default function Home() {
                 width={500}
               />
             </motion.div>
+            <Navbar />
           </div>
         </div>
-        <Navbar />
       </div>
     </div>
   );

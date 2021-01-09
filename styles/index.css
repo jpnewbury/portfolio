@@ -27,10 +27,11 @@
     margin: auto;
   }
   .header {
+    max-width: 600px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -39,7 +40,6 @@
   .container {
     max-width: 600px;
     margin: auto;
-    height: 100vh;
   }
   .header {
     display: -webkit-box;
@@ -94,6 +94,7 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   margin: auto;
+  height: auto;
 }
 
 .blank {

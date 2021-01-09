@@ -24,8 +24,9 @@ $body: "Lato", sans-serif;
         margin: auto;
     }
     .header {
+        max-width: 600px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 /* When the browser is at less than 600px */
@@ -33,7 +34,6 @@ $body: "Lato", sans-serif;
     .container {
         max-width: 600px;
         margin: auto;
-        height: 100vh;
     }
     .header {
         display: flex;
@@ -72,6 +72,7 @@ p {
     align-items: center;
     justify-content: center;
     margin: auto;
+    height: auto;
 }
 .blank {
     background-color: #808080;
@@ -198,6 +199,7 @@ p {
     gap: 40px;
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 20px;
+
     a {
         color: $gray;
         font-family: $body;

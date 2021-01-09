@@ -7,16 +7,27 @@ class Nav extends Component {
   }
   render() {
     return (
-      <nav className="navbar">
-        <Link href="/illustrate">
-          <a className="navbar-brand">Design & Illustration</a>
-        </Link>
-        <Link href="/develop">
-          <a className="navbar-brand">Front End Development</a>
-        </Link>
-        <Link href="/about">
-          <a className="navbar-brand">About</a>
-        </Link>
+      <nav className="center">
+        <div className="header">
+          <Link href="/illustrate">
+            <a className="navbar-brand">
+              {" "}
+              <img src="/images/illustration_button.png" height="40px" />
+            </a>
+          </Link>
+
+          <Link href="/develop">
+            <a className="navbar-brand">
+              <img src="/images/development_button.png" height="40px" />
+            </a>
+          </Link>
+          <Link href="/about">
+            <a className="navbar-brand">
+              {" "}
+              <img src="/images/about_button.png" height="40px" />
+            </a>
+          </Link>
+        </div>
       </nav>
     );
   }
