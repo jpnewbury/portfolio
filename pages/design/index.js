@@ -91,16 +91,12 @@ class App extends React.Component {
                     },
                   }}
                 >
-                  <Link href="/">
-                    <a>
-                      <Image
-                        src="/images/logomock.png"
-                        alt="Newbury Angling Arts and Design - Portfolio"
-                        height={800}
-                        width={800}
-                      />
-                    </a>
-                  </Link>
+                  <Image
+                    src="/images/logos.png"
+                    alt="Newbury Angling Arts and Design - Portfolio"
+                    height={1300}
+                    width={800}
+                  />
                 </motion.div>
               </div>
               <div className="center1">
@@ -154,7 +150,7 @@ class App extends React.Component {
                   <Image
                     src="/images/poster.png"
                     alt="Newbury Angling Arts and Design - Portfolio"
-                    height={1066}
+                    height={1266}
                     width={1156}
                   />
                 </motion.div>

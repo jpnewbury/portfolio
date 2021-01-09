@@ -47,10 +47,10 @@ export default function Home() {
               <Link href="/">
                 <a>
                   <Image
-                    src="/images/logo.png"
+                    src="/images/1.png"
                     alt="Newbury Angling Arts and Design - Portfolio"
                     height={320}
-                    width={300}
+                    width={320}
                   />
                 </a>
               </Link>
