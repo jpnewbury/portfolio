@@ -71,8 +71,8 @@ export default function Home() {
             <Image
               src="/images/nymphs.png"
               alt="Macroinvertebrate illustrations"
-              height={826}
-              width={660}
+              height={500}
+              width={400}
             />
           </div>
           <div className="center1">
@@ -99,8 +99,8 @@ export default function Home() {
               <Image
                 src="/images/book.png"
                 alt="Newbury Angling Arts and Design - Portfolio"
-                height={1666}
-                width={1066}
+                height={1466}
+                width={900}
               />
             </motion.div>
           </div>
@@ -126,8 +126,8 @@ export default function Home() {
               <Image
                 src="/images/poster.png"
                 alt="Newbury Angling Arts and Design - Portfolio"
-                height={1266}
-                width={1156}
+                height={1066}
+                width={1000}
               />
             </motion.div>
           </div>
@@ -155,8 +155,8 @@ export default function Home() {
                   <Image
                     src="/images/troutstream.png"
                     alt="Newbury Angling Arts and Design - Portfolio"
-                    height={1058}
-                    width={826}
+                    height={800}
+                    width={600}
                   />
                 </a>
               </Link>
@@ -186,8 +186,8 @@ export default function Home() {
                   <Image
                     src="/images/castlevalley.png"
                     alt="Newbury Angling Arts and Design - Portfolio"
-                    height={1900}
-                    width={2585}
+                    height={900}
+                    width={1200}
                   />
                 </a>
               </Link>
@@ -212,17 +212,21 @@ export default function Home() {
                 },
               }}
             >
-              <Link href="/">
-                <a>
-                  <Image
-                    src="/images/bridgecity.png"
-                    alt="Newbury Angling Arts and Design - Portfolio"
-                    height={490}
-                    width={1066}
-                  />
-                </a>
-              </Link>
+              <Image
+                src="/images/bridgecity.png"
+                alt="Newbury Angling Arts and Design - Portfolio"
+                height={490}
+                width={1066}
+              />
             </motion.div>
+          </div>
+          <div className="center1">
+            <Image
+              src="/images/PagosaDistillarylabel.png"
+              alt="fine art paintings"
+              height={490}
+              width={600}
+            />
           </div>
           <div className="center1">
             <motion.div
@@ -250,15 +254,6 @@ export default function Home() {
                 width={800}
               />
             </motion.div>
-          </div>
-
-          <div className="center1">
-            <Image
-              src="/images/fishbowl.png"
-              alt="fine art paintings"
-              height={490}
-              width={600}
-            />
           </div>
         </div>
 

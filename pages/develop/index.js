@@ -89,8 +89,8 @@ class App extends React.Component {
                   <Image
                     src="/images/develop.png"
                     alt="Newbury Angling Arts and Design - Portfolio"
-                    height={1666}
-                    width={1066}
+                    height={955}
+                    width={633}
                   />
                 </motion.div>
               </div>
