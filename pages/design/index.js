@@ -92,7 +92,7 @@ class App extends React.Component {
                   }}
                 >
                   <Image
-                    src="/images/logos.png"
+                    src="/images/artboard.png"
                     alt="Newbury Angling Arts and Design - Portfolio"
                     height={1300}
                     width={800}
