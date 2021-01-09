@@ -94,7 +94,10 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   margin: auto;
-  background-color: green;
+}
+
+.blank {
+  background-color: #808080;
 }
 
 .center2 {
