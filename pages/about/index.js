@@ -70,14 +70,10 @@ export default function Home() {
             <div className="slug">
               <h1>John P. Newbury, </h1>
               <h2>Designer Developer</h2>
-              <h3>Did you know...</h3>
-              <p>I am a web developer with over 25 years experience?</p>
               <p>
                 I have taken the long, circuitous route into the world of web
-                development. It all started in the late 1980&#39;s when my
-                fashion photography was published in international fashion
-                magazines. I then began shooting studio and fashion editorials
-                for local publications in Portland, Oregon.
+                development. I started in the late 1980&#39;s shooting fashion
+                and editorial photography.
               </p>
               <p>
                 I was approached to lead a new publication as editor-in-chief
@@ -87,10 +83,10 @@ export default function Home() {
               </p>
               <p>
                 While I was successful in creating and publishing a glossy new
-                magazine, I was not able to find a web developer. I saw that a
-                magazine could enhance it&rsquo;s brand experience with an
-                on-line presence. It was my belief that a symbiotic relationship
-                should occur between print and web experiences.
+                magazine back then, I was not able to find a web developer. I
+                saw that a magazine could enhance it&rsquo;s brand experience
+                with an on-line presence. It was my belief that a symbiotic
+                relationship should occur between print and web experiences.
               </p>
               <p>
                 I learned how to hand code HTML while waiting out a long wet
@@ -126,10 +122,10 @@ export default function Home() {
                 and continue to build my fly fishing brand.
               </p>
               <p>
-                While waiting for the the trout to bite, I grow restless.
-                It&#39;s time for me to return to the world of web development.
-                I am now seeking new opportunities to expand my coding
-                portfolio, work for a small team and build the internet.
+                I have return to the world of web development as a front end
+                developer. I am now seeking new opportunities to expand my
+                development portfolio, work for a small team and develop ne
+                projects.
               </p>
               <br />
               <div className="slug">
