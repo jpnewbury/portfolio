@@ -94,6 +94,20 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   margin: auto;
+  background-color: green;
+}
+
+.center2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
 }
 
 .center1 {
@@ -122,5 +136,125 @@ p {
       grid-template-columns: 1fr 3fr 1fr;
   max-width: 900px;
   margin: 20px 40px;
+}
+
+.card-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+.card {
+  background-color: #fbff00;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+  -webkit-filter: blur(8px);
+          filter: blur(8px);
+  mix-blend-mode: overlay;
+}
+
+.card h1 {
+  color: #00ff6a;
+  font-size: 5rem;
+}
+
+.card1 {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  border-radius: 50%;
+  padding: 40px;
+  width: 100px;
+  height: 100px;
+  mix-blend-mode: overlay;
+  z-index: 2;
+  -webkit-filter: blur(8px);
+          filter: blur(8px);
+}
+
+.card1 h1 {
+  color: red;
+  font-size: 5rem;
+}
+
+.card2 {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  border: 10px solid #c8ff00;
+  border-radius: 50%;
+  padding: 40px;
+  width: 100px;
+  height: 100px;
+  background-color: #ffae00;
+  mix-blend-mode: overlay;
+  z-index: 2;
+}
+
+.card2 h1 {
+  color: #eeff00;
+  font-size: 5rem;
+  letter-spacing: 1px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.card3 {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  border-radius: 50%;
+  padding: 40px;
+  width: 100px;
+  height: 100px;
+  mix-blend-mode: difference;
+  z-index: 3;
+}
+
+.card3 h1 {
+  color: black;
+  font-size: 5rem;
+  letter-spacing: 2px;
+  -webkit-text-stroke-width: 6px;
+  -webkit-text-stroke-color: white;
 }
 /*# sourceMappingURL=index.css.map */
