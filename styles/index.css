@@ -271,20 +271,18 @@ p {
   margin: auto;
   display: -ms-grid;
   display: grid;
-  gap: 20px;
+  gap: 40px;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  padding-left: 15px;
   margin-bottom: 20px;
 }
 
 .navbar a {
   color: #808080;
   font-family: "Lato", sans-serif;
-  text-align: center;
   text-decoration: none;
   font-weight: 700;
-  text-shadow: 1px 2px 3px;
+  text-shadow: 1px 2px 6px;
 }
 
 .navbar a:hover {
