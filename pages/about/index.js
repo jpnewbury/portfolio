@@ -24,9 +24,8 @@ export default function Home() {
 
       <div className="container">
         <div className="center1">
-          <div className="header">
+          <div className="header center">
             <motion.div
-              className="center"
               initial="hidden"
               animate="visible"
               variants={{

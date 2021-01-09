@@ -22,10 +22,9 @@ export default function Home() {
       </Head>
 
       <div className="container">
-        <div className="center1">
-          <div className="header">
+        <div className="center">
+          <div className="header center">
             <motion.div
-              className="center"
               initial="hidden"
               animate="visible"
               variants={{
@@ -56,14 +55,6 @@ export default function Home() {
                 </a>
               </Link>
             </motion.div>
-            <div>
-              {/* <Image
-                src="/images/illustrate_header.png"
-                alt="Newbury Angling Arts and Design - Portfolio"
-                height={250}
-                width={400}
-              /> */}
-            </div>
           </div>
         </div>
         <Navbar />

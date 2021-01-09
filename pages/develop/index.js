@@ -30,9 +30,8 @@ class App extends React.Component {
           ) : (
             <div className="container">
               <div className="center1">
-                <div className="header">
+                <div className="header center">
                   <motion.div
-                    className="center"
                     initial="hidden"
                     animate="visible"
                     variants={{
@@ -63,14 +62,6 @@ class App extends React.Component {
                       </a>
                     </Link>
                   </motion.div>
-                  <div>
-                    {/* <Image
-                      src="/images/develop_header.png"
-                      alt="Newbury Angling Arts and Design - Portfolio"
-                      height={250}
-                      width={400}
-                    /> */}
-                  </div>
                 </div>
               </div>
               <Navbar />
