@@ -119,6 +119,16 @@ export default function Home() {
               width={668.5}
             />
           </div>
+          <br />
+          <br />
+          <div className="center">
+            <Image
+              src="/images/fishbowl.png"
+              alt="Learn Everyday"
+              height={490}
+              width={668.5}
+            />
+          </div>
           <div className="center1">
             <div>
               <Image
