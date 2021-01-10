@@ -67,6 +67,7 @@ export default function Home() {
               width={660}
             />
           </div>
+
           <div className="center">
             <Image
               src="/images/nymphs.png"
@@ -131,7 +132,8 @@ export default function Home() {
               />
             </motion.div>
           </div>
-          <div className="center1">
+
+          {/* <div className="center1">
             <motion.div
               initial="hidden"
               animate="visible"
@@ -161,7 +163,8 @@ export default function Home() {
                 </a>
               </Link>
             </motion.div>
-          </div>
+          </div> */}
+
           <div className="center1">
             <motion.div
               initial="hidden"
@@ -192,6 +195,14 @@ export default function Home() {
                 </a>
               </Link>
             </motion.div>
+          </div>
+          <div className="center">
+            <Image
+              src="/images/learn.png"
+              alt="Macroinvertebrate illustrations"
+              height={490}
+              width={668.5}
+            />
           </div>
           <div className="center1">
             <motion.div
