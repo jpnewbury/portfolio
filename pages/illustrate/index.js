@@ -114,7 +114,7 @@ export default function Home() {
           <div className="center">
             <Image
               src="/images/learn.png"
-              alt="Macroinvertebrate illustrations"
+              alt="Learn Everyday"
               height={490}
               width={668.5}
             />
