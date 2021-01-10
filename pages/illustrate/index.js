@@ -63,8 +63,8 @@ export default function Home() {
             <Image
               src="/images/chiliCard.png"
               alt="Illusttated chili recipe"
-              height={826}
-              width={660}
+              height={1026}
+              width={860}
             />
           </div>
 
@@ -77,124 +77,39 @@ export default function Home() {
             />
           </div>
           <div className="center1">
-            <motion.div
-              initial="hidden"
-              animate="visible"
-              variants={{
-                hidden: {
-                  scale: 0.1,
-                  opacity: 0,
-                },
-                visible: {
-                  scale: 1,
-                  opacity: 1,
-                  transition: {
-                    delay: 0.15,
-                    duration: 0.65,
-                    type: "spring",
-                    stiffness: 120,
-                  },
-                },
-              }}
-            >
+            <div>
               <Image
                 src="/images/book.png"
                 alt="Newbury Angling Arts and Design - Portfolio"
                 height={1466}
                 width={900}
               />
-            </motion.div>
+            </div>
           </div>
           <div className="center1">
-            <motion.div
-              initial="hidden"
-              animate="visible"
-              variants={{
-                hidden: {
-                  scale: 0.1,
-                  opacity: 0,
-                },
-                visible: {
-                  scale: 1,
-                  opacity: 1,
-                  transition: {
-                    delay: 0.25,
-                    duration: 0.5,
-                  },
-                },
-              }}
-            >
+            <div>
               <Image
                 src="/images/poster.png"
                 alt="Newbury Angling Arts and Design - Portfolio"
-                height={1066}
-                width={1000}
+                height={866}
+                width={800}
               />
-            </motion.div>
+            </div>
           </div>
 
-          {/* <div className="center1">
-            <motion.div
-              initial="hidden"
-              animate="visible"
-              variants={{
-                hidden: {
-                  scale: 0.1,
-                  opacity: 0,
-                },
-                visible: {
-                  scale: 1,
-                  opacity: 1,
-                  transition: {
-                    delay: 0.25,
-                    duration: 0.5,
-                  },
-                },
-              }}
-            >
-              <Link href="/">
-                <a>
-                  <Image
-                    src="/images/troutstream.png"
-                    alt="Newbury Angling Arts and Design - Portfolio"
-                    height={800}
-                    width={600}
-                  />
-                </a>
-              </Link>
-            </motion.div>
-          </div> */}
-
           <div className="center1">
-            <motion.div
-              initial="hidden"
-              animate="visible"
-              variants={{
-                hidden: {
-                  scale: 0.1,
-                  opacity: 0,
-                },
-                visible: {
-                  scale: 1,
-                  opacity: 1,
-                  transition: {
-                    delay: 0.25,
-                    duration: 0.5,
-                  },
-                },
-              }}
-            >
+            <div>
               <Link href="/">
                 <a>
                   <Image
                     src="/images/castlevalley.png"
                     alt="Newbury Angling Arts and Design - Portfolio"
-                    height={900}
-                    width={1200}
+                    height={740}
+                    width={1000}
                   />
                 </a>
               </Link>
-            </motion.div>
+            </div>
           </div>
           <div className="center">
             <Image
@@ -205,31 +120,14 @@ export default function Home() {
             />
           </div>
           <div className="center1">
-            <motion.div
-              initial="hidden"
-              animate="visible"
-              variants={{
-                hidden: {
-                  scale: 0.1,
-                  opacity: 0,
-                },
-                visible: {
-                  scale: 1,
-                  opacity: 1,
-                  transition: {
-                    delay: 0.25,
-                    duration: 0.5,
-                  },
-                },
-              }}
-            >
+            <div>
               <Image
                 src="/images/bridgecity.png"
                 alt="Newbury Angling Arts and Design - Portfolio"
                 height={490}
                 width={1066}
               />
-            </motion.div>
+            </div>
           </div>
           <div className="center1">
             <Image
