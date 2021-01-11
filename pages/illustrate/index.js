@@ -6,21 +6,6 @@ import Navbar from "../../components/navbar";
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>Newbury Art and Design - Design Portfolio</title>
-        <link rel="icon" href="/images/favicon.ico" />
-        <meta
-          property="og:title"
-          content="Newbury Art and Design - Illustration and Design Portfolio"
-          key="title"
-        />
-
-        <meta
-          name="description"
-          content="A gallary of design, illustrations and front-end web development"
-        />
-      </Head>
-
       <div className="container">
         <div className="center">
           <div className="header center">
