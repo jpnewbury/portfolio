@@ -176,7 +176,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="container">
+        <div className="container1">
           <div className="col-3">
             <div>
               <Link href="/">

@@ -16,13 +16,27 @@ $body: "Lato", sans-serif;
 
 /* When the browser is at least 600px and above */
 @media screen and (min-width: 600px) {
+    body {
+        background-color: #808080;
+    }
     .container {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        max-width: 1200px;
+        margin: auto;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+    .container1 {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         max-width: 1200px;
         margin: auto;
     }
+
     .header {
         max-width: 600px;
         display: grid;

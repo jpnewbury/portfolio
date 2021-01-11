@@ -13,7 +13,26 @@
 
 /* When the browser is at least 600px and above */
 @media screen and (min-width: 600px) {
+  body {
+    background-color: #808080;
+  }
   .container {
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    max-width: 1200px;
+    margin: auto;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+  .container1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

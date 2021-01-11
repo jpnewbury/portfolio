@@ -126,13 +126,17 @@ export default function Home() {
               <p>
                 I have return to the world of web development as a front end
                 developer. I am now seeking new opportunities to expand my
-                development portfolio, work for a small team and develop ne
+                development portfolio, work for a small team and develop new
                 projects.
               </p>
               <br />
               <div className="slug">
-                Check out my most recent project I developed for Roaring Fork
-                Conservancy ->
+                <p>
+                  {" "}
+                  Check out my most recent project I developed for Roaring Fork
+                  Conservancy ->
+                </p>
+
                 <a href="https://rfc-hot-spots-app.web.app/">
                   &nbsp; Hot Spots for Trout
                 </a>
@@ -145,7 +149,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container1">
           <div className="col-3">
             <div>
               <Link href="/">
