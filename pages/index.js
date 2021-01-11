@@ -21,7 +21,7 @@ export default function Home() {
         />
       </Head>
 
-      <div className="container">
+      <div className="splash">
         <div className="center">
           <div>
             <motion.div
