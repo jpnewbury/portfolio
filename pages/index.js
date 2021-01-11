@@ -1,26 +1,9 @@
-import Head from "next/head";
-
 import Image from "next/image";
 import Navbar from "../components/navbar";
 import { motion } from "framer-motion";
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>Newbury Angling Arts and Design - Portfolio</title>
-        <link rel="icon" href="/favicon.ico" />
-        <meta
-          property="og:title"
-          content="Newbury Art and Design - Portfolio"
-          key="title"
-        />
-
-        <meta
-          name="description"
-          content="A gallary of design, illustrations and front-end web development"
-        />
-      </Head>
-
       <div className="splash">
         <div className="center">
           <div>
