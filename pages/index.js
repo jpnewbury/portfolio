@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta
           property="og:title"
-          content="Newbury Angling Arts and Design - Portfolio"
+          content="Newbury Art and Design - Portfolio"
           key="title"
         />
 

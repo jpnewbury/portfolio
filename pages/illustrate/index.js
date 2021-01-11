@@ -7,11 +7,11 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Newbury Angling Arts and Design - Illustration Portfolio</title>
+        <title>Newbury Art and Design - Illustration Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
           property="og:title"
-          content="Newbury Angling Arts and Design - Portfolio"
+          content="Newbury Art and Design - Illustration and Design Portfolio"
           key="title"
         />
 

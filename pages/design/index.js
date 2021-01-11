@@ -19,6 +19,20 @@ class App extends React.Component {
   render() {
     return (
       <main>
+        <Head>
+          <title>Newbury Angling Arts and Design - Portfolio</title>
+          <link rel="icon" href="/favicon.ico" />
+          <meta
+            property="og:title"
+            content="Newbury Art and Design - Portfolio"
+            key="title"
+          />
+
+          <meta
+            name="description"
+            content="A gallary of design, illustrations and front-end web development"
+          />
+        </Head>
         <>
           {this.state.isLoading ? (
             <div className="container">

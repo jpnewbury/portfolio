@@ -8,11 +8,11 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Newbury Arts and Design - Illustration Portfolio</title>
+        <title>Newbury Art and Design - Illustration Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
           property="og:title"
-          content="Newbury Angling Arts and Design - About"
+          content="Newbury Art and Design - About"
           key="title"
         />
 
