@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Newbury Art and Design - Illustration Portfolio</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Newbury Art and Design - Design Portfolio</title>
+        <link rel="icon" href="/images/favicon.ico" />
         <meta
           property="og:title"
           content="Newbury Art and Design - Illustration and Design Portfolio"
@@ -47,10 +47,10 @@ export default function Home() {
               <Link href="/">
                 <a>
                   <Image
-                    src="/images/1.png"
+                    src="/images/assets/logo.png"
                     alt="Newbury Angling Arts and Design - Portfolio"
-                    height={320}
-                    width={320}
+                    height={420}
+                    width={420}
                   />
                 </a>
               </Link>
@@ -59,165 +59,79 @@ export default function Home() {
         </div>
         <Navbar />
         <div className="caontainer">
-          <div className="center">
-            <Image
-              src="/images/chiliCard.png"
-              alt="Illusttated chili recipe"
-              height={1026}
-              width={860}
-            />
-          </div>
-
-          <div className="center">
-            <Image
-              src="/images/nymphs.png"
-              alt="Macroinvertebrate illustrations"
-              height={500}
-              width={400}
-            />
-          </div>
           <div className="center1">
             <div>
               <Image
-                src="/images/book.png"
+                src="/images/assets/journal.png"
                 alt="Newbury Angling Arts and Design - Portfolio"
-                height={1466}
-                width={900}
-              />
-            </div>
-          </div>
-          <div className="center1">
-            <div>
-              <Image
-                src="/images/poster.png"
-                alt="Newbury Angling Arts and Design - Portfolio"
-                height={866}
+                height={1366}
                 width={800}
               />
             </div>
           </div>
-
           <div className="center1">
             <div>
-              <Link href="/">
+              <Image
+                src="/images/assets/tuPoster.png"
+                alt="Newbury Angling Arts and Design - Portfolio"
+                height={830}
+                width={800}
+              />
+            </div>
+          </div>
+          <div className="center1">
+            <div>
+              <Image
+                src="/images/assets/typography.png"
+                alt="Newbury Angling Arts and Design - Portfolio"
+                height={764}
+                width={800}
+              />
+            </div>
+          </div>
+          <div className="center1">
+            <div>
+              <Image
+                src="/images/assets/pagosa.png"
+                alt="Newbury Angling Arts and Design - Portfolio"
+                height={612}
+                width={800}
+              />
+            </div>
+          </div>
+          <div className="center1">
+            <div>
+              <Image
+                src="/images/assets/bridgecity.png"
+                alt="Newbury Angling Arts and Design - Portfolio"
+                height={446}
+                width={800}
+              />
+            </div>
+          </div>
+          <div className="center1">
+            <div>
+              <Image
+                src="/images/assets/pwa.png"
+                alt="Newbury Angling Arts and Design - Portfolio"
+                height={2984}
+                width={800}
+              />
+            </div>
+          </div>
+          <div className="center1">
+            <div>
+              <Link href="/about">
                 <a>
                   <Image
-                    src="/images/castlevalley.png"
+                    src="/images/assets/footer.png"
                     alt="Newbury Angling Arts and Design - Portfolio"
-                    height={740}
-                    width={1000}
+                    height={400}
+                    width={400}
                   />
                 </a>
               </Link>
-            </div>
-          </div>
-          <div className="center">
-            <Image
-              src="/images/learn.png"
-              alt="Learn Everyday"
-              height={490}
-              width={668.5}
-            />
-          </div>
-          <br />
-          <br />
-          <div className="center">
-            <Image
-              src="/images/fishbowl.png"
-              alt="Learn Everyday"
-              height={490}
-              width={668.5}
-            />
-          </div>
-          <div className="center1">
-            <div>
-              <Image
-                src="/images/bridgecity.png"
-                alt="Newbury Angling Arts and Design - Portfolio"
-                height={490}
-                width={1066}
-              />
-            </div>
-          </div>
-          <div className="center1">
-            <Image
-              src="/images/PagosaDistillarylabel.png"
-              alt="fine art paintings"
-              height={490}
-              width={600}
-            />
-          </div>
-          <div className="center1">
-            <motion.div
-              initial="hidden"
-              animate="visible"
-              variants={{
-                hidden: {
-                  scale: 0.1,
-                  opacity: 0,
-                },
-                visible: {
-                  scale: 1,
-                  opacity: 1,
-                  transition: {
-                    delay: 0.25,
-                    duration: 0.5,
-                  },
-                },
-              }}
-            >
-              <Image
-                src="/images/artboard.png"
-                alt="Newbury Angling Arts and Design - Portfolio"
-                height={1300}
-                width={800}
-              />
-            </motion.div>
-          </div>
-        </div>
-
-        <div className="container1">
-          <div className="col-3">
-            <div>
-              <Link href="/">
-                <a>
-                  <motion.img
-                    width="100px"
-                    src="/images/left_arrow.png"
-                    alt="go baack a page"
-                    whileHover={{
-                      position: "relative",
-                      zIndex: 1,
-                      scale: [1, 1.3, 1.1],
-                      rotate: [0, 10, -10, 0],
-                      transition: {
-                        duration: 0.2,
-                      },
-                    }}
-                  />
-                </a>
-              </Link>
-            </div>
-            <div></div>
-            <div>
-              <Link href="/develop">
-                <a>
-                  <motion.img
-                    width="100px"
-                    src="/images/right_arrow.png"
-                    alt="go forward a page"
-                    whileHover={{
-                      position: "relative",
-                      zIndex: 1,
-                      scale: [1, 1.3, 1.1],
-                      rotate: [0, 10, -10, 0],
-                      transition: {
-                        duration: 0.2,
-                      },
-                    }}
-                  />
-                </a>
-              </Link>
+              <p className="center">© 2021 John P. Newbury Art and Design.</p>
             </div>
           </div>
         </div>

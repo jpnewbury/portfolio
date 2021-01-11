@@ -62,7 +62,7 @@
     margin: auto;
   }
   .header {
-    max-width: 600px;
+    max-width: 400px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr;
@@ -150,6 +150,7 @@ p {
 }
 
 .center1 {
+  margin: 120px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
