@@ -174,8 +174,8 @@ export default function About() {
               windows or subscription portals which block content and cannot be
               closed without the user searching for the close button. These
               barriers feel intrusive and can sidetrack a user from the desired
-              content they are seeking. Many users feel confused or "fished"
-              when they encounter them and cick out of your website or app.
+              content they are seeking. Many users feel confused or fished when
+              they encounter them and cick out of your website or app.
             </p>
             <p>
               Designing a website for search engines and accessibility is
