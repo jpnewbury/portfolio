@@ -71,8 +71,8 @@ export default function Home() {
                   </div>
                   <div>
                     <a href="https://youtu.be/5HMMnpSw-24">
-                      Check out this video I participated in for a Fly Rod
-                      Manufacturer.
+                      Check out this video I participated in for a fly rod
+                      manufacturer.
                     </a>
                   </div>
                 </div>
