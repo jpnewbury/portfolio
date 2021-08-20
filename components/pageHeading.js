@@ -4,7 +4,7 @@ function about() {
     <>
       <header>
         <h1>John P. Newbury Design</h1>
-        <h3>Ux Driven Web Developer</h3>
+        <h3>UX Driven Web Developer</h3>
       </header>
       <nav className="center">
         <Link href="/">Home</Link>
