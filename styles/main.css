@@ -206,8 +206,8 @@ small {
 .col-2 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 6fr;
-      grid-template-columns: 1fr 6fr;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
   gap: 20px;
 }
 
@@ -504,6 +504,16 @@ small {
   width: 30px;
   height: 30px;
   fill: rgba(255, 255, 255, 0.8);
+}
+
+.icon-sm-or {
+  width: 30px;
+  height: 30px;
+  fill: #0a0a0a;
+  -webkit-filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.5));
+  stroke: rgba(255, 255, 255, 0.5);
+  stroke-width: 1pxx;
+  stroke-linejoin: round;
 }
 
 .icon-sm-blk {

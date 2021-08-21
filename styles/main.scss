@@ -9,6 +9,7 @@ $black: rgb(0, 0, 0);
 $lime-green: #7a871e;
 $forrest-green: #104210;
 $red-orange: #e55b13;
+$brown: #7e3e03;
 $orange: #f6a21e;
 $gray: rgb(220, 220, 220);
 $white: rgba(255, 255, 255, 1);
@@ -210,7 +211,7 @@ small {
 
 .col-2 {
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr 2fr;
     gap: 20px;
 }
 .col-2l {
@@ -440,6 +441,16 @@ small {
     width: 30px;
     height: 30px;
     fill: rgba($white, 0.8);
+}
+
+.icon-sm-or {
+    width: 30px;
+    height: 30px;
+    fill: rgba($black, 1);
+    -webkit-filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.5));
+    stroke: rgba($white, 0.5);
+    stroke-width: 1pxx;
+    stroke-linejoin: round;
 }
 .icon-sm-blk {
     width: 25px;

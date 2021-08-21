@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import ContactIco from "../components/svg/Contact";
 import Resume from "../components/svg/Resume";
+import Bookmark from "../components/svg/bookmark";
 
 export default function Contact() {
   return (
@@ -46,18 +47,37 @@ export default function Contact() {
                   },
                 }}
               >
-                <ul>
-                  <li className="middle">
-                    <ContactIco style="icon-sm" />
+                <div className="col-2l">
+                  <div>
+                    <ContactIco style="icon-sm-or" />
+                  </div>
+                  <div>
                     <a href="mailto:john.newbury@gmail.com">Email</a>
-                  </li>
-                  <li className="middle">
-                    <Resume style="icon-sm" />
+                  </div>
+                </div>
+                <div className="col-2l">
+                  <div>
+                    <Resume style="icon-sm-or" />
+                  </div>
+                  <div>
                     <Link href="/resume">
                       <a>Resume</a>
                     </Link>
-                  </li>
-                </ul>
+                  </div>
+                </div>
+                <div className="col-2l">
+                  <div>
+                    <Bookmark style="icon-sm-or" />
+                  </div>
+                  <div>
+                    {" "}
+                    <Link href="https://flyfish-pied.vercel.app/">
+                      <a>
+                        Newbury Angling Arts - My branded fly fishing website
+                      </a>
+                    </Link>
+                  </div>
+                </div>
               </motion.p>
               <p></p>
             </article>
