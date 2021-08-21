@@ -14,8 +14,7 @@ import Mongo from "../components/svg/Mongo";
 import MySQl from "../components/svg/MySQL";
 import ReactLogo from "../components/svg/React";
 import Git from "../components/svg/Git";
-import Toolbox from "../components/svg/toolbox";
-import Palette from "../components/svg/Palette";
+
 export default function resume() {
   return (
     <section className="section">
@@ -42,8 +41,8 @@ export default function resume() {
             </div>
             <div>
               <li>
-                Created original artwork and logo design for agencies 25th
-                anniversay.
+                Created original artwork and logo design for agency&apos;s 25th
+                anniversary.
               </li>
             </div>
           </div>
