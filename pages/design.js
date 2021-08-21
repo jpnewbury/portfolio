@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 import Head from "next/head";
 import Link from "next/link";
+
 import AfterEffects from "../components/svg/AfterEffects";
 import Photoshop from "../components/svg/photoshop";
 import Illustrator from "../components/svg/illustrator";
@@ -15,9 +17,7 @@ import Mongo from "../components/svg/Mongo";
 import MySQl from "../components/svg/MySQL";
 import ReactLogo from "../components/svg/React";
 import Git from "../components/svg/Git";
-import { motion } from "framer-motion";
 import Toolbox from "../components/svg/toolbox";
-import Camera from "../components/svg/Camera";
 import Palette from "../components/svg/Palette";
 
 export default function About() {

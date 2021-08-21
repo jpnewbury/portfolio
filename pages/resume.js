@@ -1,5 +1,21 @@
 import Checkmark from "../components/svg/check2";
 import Checkmark1 from "../components/svg/check";
+import AfterEffects from "../components/svg/AfterEffects";
+import Photoshop from "../components/svg/photoshop";
+import Illustrator from "../components/svg/illustrator";
+import InDesign from "../components/svg/inDesign";
+import Figma from "../components/svg/Figma";
+import Procreate from "../components/svg/Procreate";
+import CSS from "../components/svg/css";
+import HTML from "../components/svg/html";
+import SCSS from "../components/svg/SCSS";
+import JavaScript from "../components/svg/javaScript";
+import Mongo from "../components/svg/Mongo";
+import MySQl from "../components/svg/MySQL";
+import ReactLogo from "../components/svg/React";
+import Git from "../components/svg/Git";
+import Toolbox from "../components/svg/toolbox";
+import Palette from "../components/svg/Palette";
 export default function resume() {
   return (
     <section className="section">
@@ -48,7 +64,7 @@ export default function resume() {
             </div>
             <div>
               <li>
-                Designed original printed Fly-Fishing Journal for education
+                Designed original printed fly fishing journal for education
                 programs.
               </li>
             </div>
@@ -225,6 +241,61 @@ export default function resume() {
             </h5>
           </li>
         </ul>
+        <h3>Skills</h3>
+        <small className="black">
+          These are just some of the tools I hav deep knowledge of. Please note,
+          I am never limited to using or learning other tools not listed.
+        </small>
+
+        <section className="grid-sm bg-w">
+          <div>
+            <HTML style="icon" />
+          </div>
+          <div>
+            <CSS style="icon" />
+          </div>
+          <div>
+            <JavaScript style="icon" />
+          </div>
+          <div>
+            <ReactLogo style="icon" />
+          </div>
+          <div>
+            <SCSS style="icon" />
+          </div>
+          <div>
+            <Mongo style="icon" />
+          </div>
+          <div>
+            <MySQl style="icon" />
+          </div>
+          <div>
+            <Git style="icon" />
+          </div>
+        </section>
+
+        <section className="grid-sm bg-w">
+          <div>
+            <AfterEffects style="icon" />
+          </div>
+          <div>
+            <Photoshop style="icon" />
+          </div>
+          <div>
+            <Illustrator style="icon" />
+          </div>
+          <div>
+            <InDesign style="icon" />
+          </div>
+          <div>
+            <Figma style="icon" />
+          </div>
+          <div>
+            <Procreate style="icon" />
+          </div>
+
+          <br />
+        </section>
         <h3>Publications</h3>
         <ul>
           <li>

@@ -30,7 +30,7 @@ body {
 header h3 {
   margin-top: -13px;
   white-space: nowrap;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto Slab", serif;
   color: rgba(10, 10, 10, 0.5);
   font-size: clamp(1.2rem, 1.7rem, 3vw);
   /* min, val, max */
@@ -122,13 +122,23 @@ h2 {
   padding: 0.2em;
 }
 
-h4 {
-  font-family: "Lato", sans-serif;
-  color: rgba(10, 10, 10, 0.7);
-  font-weight: 00;
-  font-size: clamp(0.9rem, 1.2rem, 2vw);
+h3 {
+  white-space: nowrap;
+  font-family: "Roboto Slab", serif;
+  color: #0a0a0a;
+  font-weight: 500;
+  font-size: clamp(1.2rem, 1.8rem, 3.3vw);
   /* min, val, max */
-  margin-top: -17px;
+  padding: 0.2em;
+}
+
+h4 {
+  font-family: "Roboto Slab", serif;
+  color: rgba(10, 10, 10, 0.7);
+  font-weight: 700;
+  font-size: 1.2rem;
+  /* min, val, max */
+  margin-top: 7px;
   padding-left: 3px;
 }
 
@@ -167,6 +177,11 @@ small {
   padding: 0.2em;
 }
 
+.black {
+  color: #0a0a0a;
+  fill: #0a0a0a;
+}
+
 .container {
   padding: clamp(0.2em, 0.4em, 2vw);
   max-width: 1000px;
@@ -191,8 +206,8 @@ small {
 .col-2 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 2fr;
-      grid-template-columns: 1fr 2fr;
+  -ms-grid-columns: 1fr 6fr;
+      grid-template-columns: 1fr 6fr;
   gap: 20px;
 }
 
@@ -257,7 +272,7 @@ small {
   position: relative;
   margin: 1em;
   background: rgba(255, 255, 255, 0.05);
-  max-width: 600px;
+  max-width: 400px;
   border-radius: 10px;
   -webkit-box-shadow: rgba(60, 64, 67, 0.1) 0px 2px 2px 1px, rgba(60, 64, 67, 0.1) 0px 1px 1px 1px;
           box-shadow: rgba(60, 64, 67, 0.1) 0px 2px 2px 1px, rgba(60, 64, 67, 0.1) 0px 1px 1px 1px;
@@ -367,6 +382,12 @@ small {
           justify-content: center;
 }
 
+.container-inner h3 {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+}
+
 .footer {
   font-family: "Lato", sans-serif;
   color: rgba(10, 10, 10, 0.7);
@@ -379,10 +400,21 @@ small {
   text-align: center;
 }
 
+.gallery {
+  padding: 1em;
+  margin: 1em;
+  background-color: gainsboro;
+  border: 1px solid #0a0a0a;
+}
+
+.gallery h3 {
+  border-bottom: 1px solid #0a0a0a;
+}
+
 .grid-ish > * {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 400px;
-          flex: 1 1 400px;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
 }
 
 .grid-ish {
@@ -539,10 +571,10 @@ small {
 
 .title h6 {
   white-space: nowrap;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto Slab", serif;
   color: rgba(10, 10, 10, 0.7);
   font-weight: 500;
-  font-size: clamp(1.7rem, 2.8rem, 3.3vw);
+  font-size: clamp(2rem, 2.8rem, 3.3vw);
   /* min, val, max */
   padding: 0.2em;
   margin-bottom: -10px;
