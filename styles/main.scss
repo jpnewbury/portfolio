@@ -147,9 +147,9 @@ h2 {
 h3 {
     white-space: nowrap;
     font-family: $font-block;
-    color: $black;
+    color: $white;
     font-weight: 500;
-    font-size: clamp(1.2rem, 1.8rem, 3.3vw); /* min, val, max */
+    font-size: clamp(1rem, 1.5rem, 3.3vw); /* min, val, max */
     padding: $padding-s;
 }
 h4 {
@@ -376,8 +376,16 @@ small {
     @include block;
     background-color: rgba($gray, 1);
     border: $border;
+
+    border-bottom: $border;
     h3 {
+        white-space: nowrap;
         border-bottom: $border;
+        font-family: $font-block;
+        color: $black;
+        font-weight: 500;
+        font-size: clamp(1rem, 1.5rem, 3.3vw); /* min, val, max */
+        padding: $padding-s;
     }
 }
 .grid-ish > * {

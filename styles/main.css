@@ -125,9 +125,9 @@ h2 {
 h3 {
   white-space: nowrap;
   font-family: "Roboto Slab", serif;
-  color: #0a0a0a;
+  color: white;
   font-weight: 500;
-  font-size: clamp(1.2rem, 1.8rem, 3.3vw);
+  font-size: clamp(1rem, 1.5rem, 3.3vw);
   /* min, val, max */
   padding: 0.2em;
 }
@@ -405,10 +405,18 @@ small {
   margin: 1em;
   background-color: gainsboro;
   border: 1px solid #0a0a0a;
+  border-bottom: 1px solid #0a0a0a;
 }
 
 .gallery h3 {
+  white-space: nowrap;
   border-bottom: 1px solid #0a0a0a;
+  font-family: "Roboto Slab", serif;
+  color: #0a0a0a;
+  font-weight: 500;
+  font-size: clamp(1rem, 1.5rem, 3.3vw);
+  /* min, val, max */
+  padding: 0.2em;
 }
 
 .grid-ish > * {

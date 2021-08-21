@@ -43,16 +43,11 @@ export default function About() {
             </p>
           </span>
         </section>
-        <div className="margin">
-          <p></p>
-        </div>
-        <div className="margin">
-          <Palette style="icon-lg" />
-        </div>
+
         <section className="center">
           <div className="grid-ish">
             <div>
-              <Link href="art" as="portfolio/art">
+              <Link href="/portfolio/art">
                 <a>
                   <motion.div
                     className="card3"
@@ -80,7 +75,7 @@ export default function About() {
                 </a>
               </Link>
             </div>
-            <Link href="/portfolio" as="portfolio/design">
+            <Link href="/portfolio/design">
               <a>
                 <motion.div
                   className="card2"
@@ -107,7 +102,7 @@ export default function About() {
                 </motion.div>
               </a>
             </Link>
-            <Link href="photography" as="portfolio/photography">
+            <Link href="/portfolio/photography">
               <a>
                 <motion.div
                   className="card1"

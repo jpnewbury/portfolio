@@ -12,30 +12,19 @@ export default function Home() {
       </Head>
       <main>
         <section className="block">
-          <h2>Art Gallery</h2>
+          <h2>Design Gallery</h2>
         </section>
         <section>
           <article>
             <div className="body">
               <span>
                 <p>
-                  Painting as a discipline has taught me many things about the
-                  world we live in and how people perceive design. The act of
-                  reducing a scene to its basic shapes, colors, and value is the
-                  foundation of good design. Designing a document holds the same
-                  process as painting on a canvas. A good design has a lead-in
-                  point that catches the users eye and directs it through the
-                  page hierarchy to tell the story, invoke an emotional
-                  response, or convey an idea.
+                  Graphic design is functional art. It serves to inform the
+                  viewer a story or narrative with a visual impact. The use of
+                  shapes, colors and text all merge into a single cohesive
+                  design that can describe, influence or motivate the viewer.
                 </p>
               </span>
-              <p>
-                A web page based on the design thinking principle has a natural
-                flow that users do not have to think or adjust their perceptions
-                to understand. Users unfamiliar with your website will settle in
-                and feel comfortable navigating without adding unnecessary
-                design elements to guide them.
-              </p>
             </div>
           </article>
         </section>
@@ -74,50 +63,50 @@ export default function Home() {
               <section>
                 <article className="gallery">
                   <div>
-                    <h3>Jaffe Park</h3>
+                    <h3>Print and Website Mockup</h3>
                   </div>
                   <div>
                     <Image
-                      src="/JaffeParkAspenPainting.jpg"
-                      width={840}
-                      height={716}
-                      alt="An oil painting of the Roaring Fork River in Aspen colorado"
+                      src="/design1.png"
+                      width={1205}
+                      height={1016}
+                      alt="Mockup design for an upocomg book and companion website"
                     />
                   </div>
                   <div>
-                    <p>Oil on canvas 20&quot; x 24&quot;, SOLD</p>
+                    <p>A design for an upcoming book.</p>
                   </div>
                 </article>
                 <article className="gallery">
                   <div>
-                    <h3>Spell of the Sensous #2</h3>
+                    <h3>Digital Ilustration</h3>
                   </div>
                   <div>
                     <Image
-                      src="/Spell2.jpg"
-                      width={840}
-                      height={623}
-                      alt="An oil painting of a bristlecone pine on a rocky outcrop in the Rocky Mountains"
+                      src="/SeattleSkylineCopy.png"
+                      width={1173}
+                      height={808}
+                      alt="Digital illustration of the Seattle skyline"
                     />
                   </div>
                   <div>
-                    <p>Oil on canvas 24&quot; x 36&quot; SOLD</p>
+                    <p>Designed using Affinty Designer</p>
                   </div>
                 </article>
                 <article className="gallery">
                   <div>
-                    <h3>Silver Lake</h3>
+                    <h3>Scientific Ilustration</h3>
                   </div>
                   <div>
                     <Image
-                      src="/SilverLakeBrightonUtah.jpg"
-                      width={1700}
-                      height={1235}
-                      alt="Oil painting of an alpine lake in autumn with calm water reflections"
+                      src="/drunella1.png"
+                      width={943.5}
+                      height={1080}
+                      alt="Digital illustration of the an aquatic mayfly nymph"
                     />
                   </div>
                   <div>
-                    <p>Oil on panel 24&quot; x 36&quot;</p>
+                    <p>Macro Invertebrate illustration</p>
                   </div>
                 </article>
               </section>
