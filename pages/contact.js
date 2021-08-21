@@ -70,7 +70,6 @@ export default function Contact() {
                     <Bookmark style="icon-sm-or" />
                   </div>
                   <div>
-                    {" "}
                     <Link href="https://flyfish-pied.vercel.app/">
                       <a>
                         Newbury Angling Arts - My branded fly fishing website

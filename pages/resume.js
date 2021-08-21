@@ -243,7 +243,7 @@ export default function resume() {
         <h3>Skills</h3>
         <small className="black">
           These are just some of the tools I have deep knowledge of. Please
-          note, I am never limited to using or learning other tools are not
+          note, I am never limited to using or learning other tools that are not
           listed.
         </small>
 
