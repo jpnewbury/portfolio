@@ -2,7 +2,6 @@ import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import Card from "../../components/card";
 
 export default function Home() {
   return (
