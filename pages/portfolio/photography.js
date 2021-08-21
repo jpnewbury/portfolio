@@ -122,7 +122,7 @@ export default function Home() {
                     />
                   </div>
                   <div>
-                    <p>color photo</p>
+                    <p>Color photo</p>
                   </div>
                 </article>
                 <article className="gallery">
@@ -138,7 +138,7 @@ export default function Home() {
                     />
                   </div>
                   <div>
-                    <p>color photo</p>
+                    <p>Color photo</p>
                   </div>
                 </article>
 
@@ -155,7 +155,7 @@ export default function Home() {
                     />
                   </div>
                   <div>
-                    <p>color photo</p>
+                    <p>Color photo</p>
                   </div>
                 </article>
                 <h3>Macro and Product Photography</h3>
