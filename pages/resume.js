@@ -242,8 +242,9 @@ export default function resume() {
         </ul>
         <h3>Skills</h3>
         <small className="black">
-          These are just some of the tools I hav deep knowledge of. Please note,
-          I am never limited to using or learning other tools not listed.
+          These are just some of the tools I have deep knowledge of. Please
+          note, I am never limited to using or learning other tools are not
+          listed.
         </small>
 
         <section className="grid-sm bg-w">
