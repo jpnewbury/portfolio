@@ -14,33 +14,34 @@ function MyApp({ Component, pageProps, router }) {
   });
   Router.events.on("routeChangeComplete", () => {
     setLoading(false);
-    console.log("Loading stop");
   });
 
   return (
-    <Layout>
+    <>
       {loading && (
         <div className="modal">
           <Loading style="loader" />
         </div>
       )}
       <AnimatePresence exitBeforeEnter>
-        <motion.div
-          key={router.route}
-          initial={{ opacity: 0 }}
-          animate={{
-            opacity: 1,
-            x: 0,
-            transition: {
-              duration: 0.1,
-            },
-          }}
-          exit={{ opacity: 0 }}
-        >
-          <Component {...pageProps} key={router.route} />
-        </motion.div>
+        <Layout>
+          <motion.div
+            key={router.route}
+            initial={{ opacity: 0 }}
+            animate={{
+              opacity: 1,
+              x: 0,
+              transition: {
+                duration: 0.1,
+              },
+            }}
+            exit={{ opacity: 0 }}
+          >
+            <Component {...pageProps} key={router.route} />
+          </motion.div>
+        </Layout>
       </AnimatePresence>
-    </Layout>
+    </>
   );
 }
 
