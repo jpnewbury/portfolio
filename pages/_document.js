@@ -7,7 +7,16 @@ class MyDocument extends Document {
         <Head>
           <meta
             name="description"
-            content="An online resume for a UX designer"
+            content="John P. Newbury online front end web developer portfolio"
+          />
+          <meta property="og:title" content="John P. Newbury" />
+          <meta
+            property="og:description"
+            content="John P. Newbury online front end web developer portfolio."
+          />
+          <meta
+            property="og:image"
+            content="https://portfolio-jpnewbury.vercel.app/_next/image?url=%2F1.jpeg&w=1920&q=75"
           />
         </Head>
         <body>
