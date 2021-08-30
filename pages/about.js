@@ -109,7 +109,7 @@ export default function Gallery() {
             cold river fly fishing. I am a signature fly designer for &nbsp;
             <a href="https://www.fullingmill.com/">Fulling Mill</a>. My{" "}
             <a href="https://www.instagram.com/j.p.newbury/">instagram</a> feed
-            has over 9000 followers and hilights my fly tying and macro
+            has over 9000 followers and showcasing my fly tying and macro
             photography.
           </p>
           <p>
