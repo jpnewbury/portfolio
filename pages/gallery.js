@@ -332,6 +332,7 @@ export default function Gallery() {
           </p>
         </div>
       </section>
+      <br />
     </div>
   );
 }

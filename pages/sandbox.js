@@ -1,3 +1,4 @@
+import { gsap } from "gsap";
 export default function sandbox() {
   return (
     <div className="container">
