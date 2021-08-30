@@ -31,7 +31,6 @@ export default function Home() {
                 impact their perception of your design. Can your site compensate
                 for previous experiences, or does it merely add to the mounting
                 frustration of encountering poorly designed websites?
-                <a href="/design">more...</a>
               </p>
             </span>
           </div>
