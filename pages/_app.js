@@ -1,21 +1,21 @@
 import "../styles/main.css";
-import Router from "next/router";
-import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import Layout from "../components/layout";
+import { useState } from "react";
 import Loading from "../components/loading";
+import { motion, AnimatePresence } from "framer-motion";
+import Router from "next/router";
 
-function MyApp({ Component, pageProps, router }) {
-  let easing = [0.175, 0.85, 0.42, 0.96];
+export default function MyApp({ Component, pageProps, router }) {
+  // loading screen when route changes
   const [loading, setLoading] = useState(false);
   Router.events.on("routeChangeStart", (url) => {
-    console.log(url);
+    console.log("Loading started");
     setLoading(true);
   });
   Router.events.on("routeChangeComplete", () => {
     setLoading(false);
+    console.log("Loading stopped");
   });
-
   return (
     <>
       {loading && (
@@ -30,9 +30,8 @@ function MyApp({ Component, pageProps, router }) {
             initial={{ opacity: 0 }}
             animate={{
               opacity: 1,
-              x: 0,
               transition: {
-                duration: 0.1,
+                duration: 0.75,
               },
             }}
             exit={{ opacity: 0 }}
@@ -44,5 +43,3 @@ function MyApp({ Component, pageProps, router }) {
     </>
   );
 }
-
-export default MyApp;

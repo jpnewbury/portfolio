@@ -1,19 +1,19 @@
-import Link from "next/link";
-function about() {
+import React from "react";
+
+export default function pageHeading() {
   return (
     <>
-      <header>
-        <h1>John P. Newbury Design</h1>
-        <h3>UX Driven Web Developer</h3>
-      </header>
-      <nav className="center">
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-        <Link href="/design">Design</Link>
-        <Link href="/contact">Contact</Link>
-      </nav>
+      <div className="name-heading">John P. Newbury</div>
+
+      <h1>
+        <span className="blue">UX</span>
+        <span className="outline"> Designer</span>
+      </h1>
+      <h2>
+        Front-end <span className="brown"> artist </span>and{" "}
+        <span className="brown">coder </span>
+        solving design challenges for all users and devices.
+      </h2>
     </>
   );
 }
-
-export default about;

@@ -23,7 +23,7 @@ export default function resume() {
           <h6>Resume</h6>
         </span>
       </div>
-      <div className="section__body">
+      <section className="bg-white">
         <p>
           Experienced freelance designer / developer interested in migrating
           into full-time employment within a supportive and engaging
@@ -247,7 +247,7 @@ export default function resume() {
           listed.
         </small>
 
-        <section className="grid-sm bg-w">
+        <section className="grid-sm bg-white">
           <div>
             <HTML style="icon" />
           </div>
@@ -325,7 +325,7 @@ export default function resume() {
             -Summer 2005 Featured as Innovative Fly Tyer
           </li>
         </ul>
-      </div>
+      </section>
 
       <br />
       <br />

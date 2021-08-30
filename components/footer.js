@@ -1,3 +1,9 @@
+import React from "react";
+
 export default function footer() {
-  return <div className="footer">&#169; 2021 John P. Newbury</div>;
+  return (
+    <div className="nav-container center">
+      All content on this website &copy; John P.Newbury, 2021
+    </div>
+  );
 }

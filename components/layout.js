@@ -1,12 +1,14 @@
-import Header from "../components/pageHeading";
-import Footer from "../components/footer";
+// components/layout.js
+
+import Navbar from "./nav";
+import Footer from "./footer";
 
 export default function Layout({ children }) {
   return (
-    <div className="container">
-      <Header />
+    <>
+      <Navbar />
       <main>{children}</main>
       <Footer />
-    </div>
+    </>
   );
 }

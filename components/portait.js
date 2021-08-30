@@ -1,4 +1,4 @@
-export default function sandbox() {
+export default function portrait() {
   return (
     <div className="container">
       <div className="img-container">
