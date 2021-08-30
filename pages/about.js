@@ -103,24 +103,23 @@ export default function Gallery() {
           <li>VS Code</li>
           <li>git, github</li>
         </article>
+        <article>
+          <p>
+            When not writing code or painting, I can be found waist deep in a
+            cold river fly fishing. I am a signature fly designer for &nbsp;
+            <a href="https://www.fullingmill.com/">Fulling Mill</a>. My{" "}
+            <a href="https://www.instagram.com/j.p.newbury/">instagram</a> feed
+            has over 9000 followers and hilights my fly tying and macro
+            photography.
+          </p>
+          <p>
+            I give lectures and presentations for fly shops and clubs on the art
+            of fly tying and tactical fly fishing. I was recently featured in a
+            short film for&nbsp;
+            <a href="https://youtu.be/5HMMnpSw-24">G Loomis fly rods.</a>
+          </p>
+        </article>
       </section>
-      <section className="split bg-white">
-        <p>
-          When not writing code or painting, I can be found waist deep in a cold
-          river fly fishing. I am a signature fly designer for &nbsp;
-          <a href="https://www.fullingmill.com/">Fulling Mill</a>. My{" "}
-          <a href="https://www.instagram.com/j.p.newbury/">instagram</a> feed
-          has over 9000 followers and hilights my fly tying and macro
-          photography.
-        </p>
-        <p>
-          I give lectures and presentations for fly shops and clubs on the art
-          of fly tying and tactical fly fishing. I was recently featured in a
-          short film for&nbsp;
-          <a href="https://youtu.be/5HMMnpSw-24">G Loomis fly rods.</a>
-        </p>
-      </section>
-
       <section className="center s2">
         <Social />
       </section>
