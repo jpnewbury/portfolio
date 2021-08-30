@@ -267,7 +267,7 @@ small {
 .col5 {
     @include block;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     padding: $padding;
     gap: 10px;
     img {
