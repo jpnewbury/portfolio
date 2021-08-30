@@ -259,7 +259,7 @@ export default function Gallery() {
             <p>
               I exploit deep-field macro photography techniques to capture
               fishing flies that reveal exquisite details often not visible in
-              those small objects. To see more examples of my macro photograohy
+              those small objects. To see more examples of my macro photography
               work,{" "}
               <a href="https://flyfish-pied.vercel.app/">
                 &nbsp;please visit my fly fishing website.
