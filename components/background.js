@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function background() {
   return (
     <svg x="0px" y="0px" viewBox="0 0 1122 848">
@@ -388,7 +386,7 @@ export default function background() {
 		c1.3,0.6,1.9,2.2,1.3,3.6l-2.8,5.9C228.4,753.7,226.8,754.3,225.5,753.6z"
         />
       </g>
-      <g className="arrow-3" className="st6">
+      <g className="st6">
         <g>
           <path
             className="st8"
@@ -402,7 +400,7 @@ export default function background() {
           </g>
         </g>
       </g>
-      <g className="arrow-2" className="st6">
+      <g className="st6">
         <g>
           <path
             className="st8"
@@ -413,7 +411,7 @@ export default function background() {
           </g>
         </g>
       </g>
-      <g className="arrow-1" className="st6">
+      <g className="st6">
         <g>
           <path
             className="st8"
