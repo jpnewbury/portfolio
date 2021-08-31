@@ -1,7 +1,8 @@
-import Head from "next/head";
+import Link from "next/link";
 import Image from "next/image";
 import Background from "../components/background";
 import Heading from "../components/pageHeading";
+import Social from "../components/social";
 
 export default function Home() {
   return (
@@ -24,17 +25,22 @@ export default function Home() {
             </div>
             <span className="intro bg-white">
               <p>
-                Many good websites have hidden flaws that can interrupt the ease
-                and flow users encounters along the journey. These interruptions
-                often halt a user dead in their tracks and send them elsewhere.
-                Users encountering bad websites before visiting your site can
-                impact their perception of your design. Can your site compensate
-                for previous experiences, or does it merely add to the mounting
-                frustration of encountering poorly designed websites?
+                Many good websites have hidden flaws or pain points that can
+                interrupt the ease and flow users encounters along the journey.
+                These interruptions often halt a user dead in their tracks and
+                send them elsewhere. Users encountering bad websites before
+                visiting your site can impact their perception of your design.
+                Can your site compensate for previous experiences, or does it
+                merely add to the mounting frustration of encountering poorly
+                designed websites?
+                <Link href="/gallery">More...</Link>
               </p>
             </span>
           </div>
         </div>
+      </section>
+      <section className="center s2">
+        <Social />
       </section>
     </div>
   );

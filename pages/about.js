@@ -60,9 +60,9 @@ export default function Gallery() {
           </span>
           <p>
             I am a team player willing to tackle several positions to meet your
-            company&apos;s needs. Two and a half decades of experience in all
-            phases of front-end web development taught me what works, what
-            doesn&apos;t work, and a willingness to dive into the unknown.
+            company&apos;s needs. My experience in all phases of front-end web
+            development taught me what works, what doesn&apos;t work, and a
+            willingness to dive into the unknown.
           </p>
           <Learn />
           <p>

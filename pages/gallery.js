@@ -7,6 +7,7 @@ import Seo from "../components/svg/Seo";
 import Responsive from "../components/svg/Responsive";
 import Photography from "../components/svg/photography";
 import Art from "../components/svg/art";
+import Social from "../components/social";
 
 export default function Gallery() {
   return (
@@ -25,13 +26,13 @@ export default function Gallery() {
         </div>
         <span className="hero">
           <p>
-            Many good websites have hidden flaws that can interrupt the ease and
-            flow users encounters along the journey. These interruptions often
-            halt a user dead in their tracks and send them elsewhere. Users
-            encountering bad websites before visiting your site can impact their
-            perception of your design. Can your site compensate for previous
-            experiences, or does it merely add to the mounting frustration of
-            encountering poorly designed websites?{" "}
+            Many good websites have hidden flaws or pain points that can
+            interrupt the ease and flow users encounters along the journey.
+            These interruptions often halt a user dead in their tracks and send
+            them elsewhere. Users encountering bad websites before visiting your
+            site can impact their perception of your design. Can your site
+            compensate for previous experiences, or does it merely add to the
+            mounting frustration of encountering poorly designed websites?
           </p>
         </span>
       </section>
@@ -332,7 +333,9 @@ export default function Gallery() {
           </p>
         </div>
       </section>
-      <br />
+      <section className="center s2">
+        <Social />
+      </section>
     </div>
   );
 }
