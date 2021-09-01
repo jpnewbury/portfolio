@@ -19,22 +19,9 @@ export default function Gallery() {
         <div className="content">
           <Heading />
         </div>
-        <br />
-        <br />
         <div className="page-intro">
-          <h2>UI / UX Design</h2>
+          <h2>Gallery</h2>
         </div>
-        <span className="hero">
-          <p>
-            Many good websites have hidden flaws or pain points that can
-            interrupt the ease and flow users encounters along the journey.
-            These interruptions often halt a user dead in their tracks and send
-            them elsewhere. Users encountering bad websites before visiting your
-            site can impact their perception of your design. Can your site
-            compensate for previous experiences, or does it merely add to the
-            mounting frustration of encountering poorly designed websites?
-          </p>
-        </span>
       </section>
       <section className="grid">
         <Link href="#design">
