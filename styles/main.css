@@ -14,6 +14,20 @@
   max-width: 1000px;
 }
 
+.bg-image2 {
+  display: -ms-grid;
+  display: grid;
+  grid: "copy empty" 1fr "bottom bottom" 80% / 1fr 1fr;
+  background-color: #646464;
+  background-image: url("/DSC03699.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 480px;
+  max-width: 1000px;
+}
+
 .copy {
   grid-area: copy;
 }
@@ -23,6 +37,7 @@
   margin-left: 20px;
   line-height: 1.6em;
   min-width: 25ch;
+  margin-top: 20px;
 }
 
 .empty {
