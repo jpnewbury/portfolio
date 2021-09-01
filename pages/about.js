@@ -27,11 +27,11 @@ export default function Gallery() {
         </div>
       </section>
       <section className="bg-white">
-        <article>
+        <article className="center">
           <Image
             src="/1.jpg"
-            height={888}
-            width={1333}
+            height={444}
+            width={666.5}
             alt="Image of Mr Newbury"
           />
         </article>
@@ -76,7 +76,10 @@ export default function Gallery() {
             JavaScript. I have used various frameworks and libraries and have
             come to enjoy working NextJs (React) and SCSS the most.
           </p>
-          <p>I use, but never limited to, the following tools:</p>
+          <p>
+            I have over 24 years using Adobe tools, but am never limited to this
+            list.
+          </p>
           <b>Adobe CC</b>
 
           <div className="col5">
@@ -98,10 +101,12 @@ export default function Gallery() {
           </div>
 
           <b>Other tools:</b>
-          <li>Figma</li>
-          <li>Sketch</li>
-          <li>VS Code</li>
-          <li>git, github</li>
+          <ul>
+            <li>Figma</li>
+            <li>Sketch</li>
+            <li>VS Code</li>
+            <li>Github</li>
+          </ul>
         </article>
         <article>
           <p>

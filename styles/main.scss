@@ -6,7 +6,7 @@ $white: rgba(255, 255, 255, 1);
 $padding: 5px;
 $margin: 7px;
 $color-pistachio: #a4b797;
-$color-chocolate: rgb(61, 51, 43);
+$color-chocolate: #3d332b;
 $green: rgb(16, 139, 0);
 $blue: rgb(0, 110, 255);
 $gold: rgb(197, 179, 88);
@@ -37,6 +37,40 @@ $border: 2px solid $gray-1;
     margin: $margin;
 }
 
+.bg-image {
+    display: grid;
+    grid:
+        "copy empty" 1fr
+        "bottom bottom" 80%
+        / 1fr 1fr;
+    background-color: $gray-3;
+    background-image: url("/1.jpeg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 480px;
+    max-width: 1000px;
+}
+.copy {
+    p {
+        color: $white;
+        margin-left: 20px;
+        line-height: 1.6em;
+        min-width: 25ch;
+    }
+    grid-area: copy;
+}
+.empty {
+    grid-area: empty;
+}
+.bottom {
+    grid-area: bottom;
+    margin-left: 20px;
+}
+.bottom {
+    grid-area: bottom;
+}
 * {
     font-family: "Montserrat", sans-serif;
     //get rid of all box margins
@@ -50,13 +84,16 @@ html {
 body {
     background-color: $color-pistachio;
 }
-
+h3 {
+    margin: $margin;
+    padding-left: $padding + 20;
+}
 ul {
+    display: flex;
     text-decoration: none;
     list-style: none;
 }
 li {
-    line-height: 1em;
     padding: 10px;
     margin-right: 20px;
     list-style: none;
@@ -168,32 +205,33 @@ small {
 .card2 {
     margin: 10px;
     padding: $padding + 10;
-    min-height: 100px;
+    min-height: 90px;
     border-radius: 10px;
-    background: rgba($white, 0.4);
+    background: rgba($black, 0.4);
     height: auto;
     transition: $transition;
+    max-width: 300px;
     h2 {
         text-align: center;
         color: rgba($white, 0.7);
         margin: 10px;
-        font-size: clamp(0.2, 2rem, 3vw);
+        font-size: 1rem;
     }
     img {
         display: block;
-        border: 2px solid white;
+        border: 1px solid white;
         border-radius: 10px;
         margin-bottom: 10px;
     }
 }
-.card2:hover {
-    background: rgba($blue, 0.2);
-    cursor: pointer;
-    box-shadow: $box-shadow;
-    transform: translateY(-1.3%);
-    transition: $transition;
-    border-radius: 13px;
-}
+// .card2:hover {
+//     background: rgba($blue, 0.2);
+//     cursor: pointer;
+//     box-shadow: $box-shadow;
+//     transform: translateY(-1.3%);
+//     transition: $transition;
+//     border-radius: 13px;
+// }
 .icon-sm-blk {
     width: 25px;
     height: 25px;
@@ -250,19 +288,16 @@ small {
     }
 
     .intro {
-        margin: 2em;
-        padding: 1em;
-        max-width: 80ch;
-        background: rgba(white, 0.2);
-        border-radius: 9px;
-
         a {
             margin-left: 20px;
-        }
-        p {
-            padding-top: 20px;
+            font-weight: 700;
+            letter-spacing: 0.2em;
         }
     }
+}
+.intro ::first-letter {
+    font-size: clamp(1.7rem, 2.1rem, 3vw); /* min, val, max */
+    font-weight: 500;
 }
 .col5 {
     @include block;
@@ -311,25 +346,23 @@ small {
 
 .icon {
     cursor: pointer;
-    height: 60px;
-    width: 60px;
-    fill: $white;
+    margin: $margin;
+    height: 50px;
+    width: 50px;
+    fill: rgba($white, 0.6);
     transition: $transition;
 }
 .icon:hover,
 .icon:active {
     cursor: pointer;
     transition: $transition;
-    fill: rgba($blue, 0.7);
+    fill: rgba($blue, 0.9);
+
+    transform: scale(1.1);
 }
 .icon-row {
     display: grid;
     grid-template-columns: repeat(9, 1fr [col-start]);
-}
-
-.intro ::first-letter {
-    font-size: clamp(1.7rem, 2.1rem, 3vw); /* min, val, max */
-    font-weight: 600;
 }
 
 // Laoding screen and animations
@@ -379,6 +412,7 @@ small {
     background: $color-chocolate;
     padding: $padding + 20;
 }
+
 .split {
     columns: 400px 2;
     padding: clamp(20px, 40px, 4vw); /* min, val, max */
