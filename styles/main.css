@@ -293,8 +293,7 @@ small {
   color: white;
   max-width: 30ch;
   text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.39);
-  margin-top: -7px;
-  margin-bottom: 7px;
+  margin-bottom: 12px;
 }
 
 .content h3 {
@@ -400,7 +399,7 @@ small {
   cursor: pointer;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  fill: rgba(0, 110, 255, 0.9);
+  fill: rgba(0, 113, 188, 0.9);
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }

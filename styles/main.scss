@@ -8,9 +8,9 @@ $margin: 7px;
 $color-pistachio: #a4b797;
 $color-chocolate: #3d332b;
 $green: rgb(16, 139, 0);
-$blue: rgb(0, 110, 255);
-$gold: rgb(197, 179, 88);
+$blue: #0071bc;
 $red-orange: #e55b13;
+$gold: rgb(197, 179, 88);
 $black: rgb(0, 0, 0);
 $gray-1: rgb(50, 50, 50);
 $gray-2: rgb(75, 75, 75);
@@ -157,7 +157,7 @@ small {
     background: rgba($white, 0.85);
 }
 .blue {
-    color: #0071bc;
+    color: $blue;
 }
 .brown {
     color: $color-chocolate;
@@ -275,8 +275,8 @@ small {
         color: white;
         max-width: 30ch;
         text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.39);
-        margin-top: -7px;
-        margin-bottom: 7px;
+        // margin-top: px;
+        margin-bottom: 12px;
     }
     h3 {
         text-align: center;
