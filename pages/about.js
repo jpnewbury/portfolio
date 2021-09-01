@@ -20,8 +20,6 @@ export default function Gallery() {
         <div className="content">
           <Heading />
         </div>
-        <br />
-        <br />
         <div className="page-intro">
           <h2>About</h2>
         </div>
