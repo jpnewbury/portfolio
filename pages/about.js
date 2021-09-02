@@ -37,6 +37,20 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <section>
+          <nav>
+            <ul>
+              <li>
+                <a href="mailto:john.newbury@gmail.com">Contact</a>
+              </li>
+              <li>
+                <a href="https://www.dropbox.com/s/7xo88x48pgs6h6w/JohnPNewburyResume2021.pdf?dl=0">
+                  Resume
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </section>
         <section className="split bg-white">
           <article>
             <p>
