@@ -1,0 +1,37 @@
+$box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+$transition: all 0.35s ease;
+$white: rgba(255, 255, 255, 1);
+$padding: 5px;
+$margin: 7px;
+$color-pistachio: #a4b797;
+$color-chocolate: #3d332b;
+$green: rgb(16, 139, 0);
+$blue: #0071bc;
+$red-orange: #e55b13;
+$gold: rgb(197, 179, 88);
+$black: rgb(0, 0, 0);
+$gray-1: rgb(50, 50, 50);
+$gray-2: rgb(75, 75, 75);
+$gray-3: rgb(100, 100, 100);
+$gray-4: rgb(125, 125, 125);
+$gray-5: rgb(150, 150, 150);
+$gray-6: rgb(175, 175, 175);
+$gray-7: rgb(200, 200, 200);
+$gray-8: rgb(225, 225, 225);
+$gray-9: rgb(250, 250, 250);
+$transition: all 0.3s ease;
+$text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.39);
+$box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 10px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+$border-radius: 13px;
+$border: 2px solid $gray-1;
+@mixin center {
+    // include when you need to center items in a div
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin block {
+    // basic margin and padding
+    padding: $padding;
+    margin: $margin;
+}
