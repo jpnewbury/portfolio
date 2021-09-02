@@ -4,7 +4,7 @@
   display: -ms-grid;
   display: grid;
   grid: "copy empty" 1fr "bottom bottom" 80% / 1fr 1fr;
-  background-color: #646464;
+  background-color: #7d7d7d;
   background-image: url("/1.jpeg");
   background-blend-mode: multiply;
   background-size: cover;
@@ -171,6 +171,8 @@ small {
 
 .blue {
   color: #0071bc;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
 }
 
 .brown {
@@ -321,9 +323,10 @@ small {
 }
 
 .content .intro a {
-  margin-left: 20px;
+  color: white;
+  margin-left: 10px;
   font-weight: 700;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.3em;
 }
 
 .intro ::first-letter {
@@ -791,7 +794,7 @@ small {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(50, 50, 50, 0.8);
 }
 
 @-webkit-keyframes loading {
@@ -802,10 +805,10 @@ small {
     fill: rgba(255, 255, 255, 0.8);
   }
   50% {
-    fill: white;
+    fill: #a4b797;
   }
   75% {
-    fill: rgba(255, 255, 255, 0.8);
+    fill: rgba(61, 51, 43, 0.8);
   }
   100% {
     fill: rgba(255, 255, 255, 0.5);
@@ -820,10 +823,10 @@ small {
     fill: rgba(255, 255, 255, 0.8);
   }
   50% {
-    fill: white;
+    fill: #a4b797;
   }
   75% {
-    fill: rgba(255, 255, 255, 0.8);
+    fill: rgba(61, 51, 43, 0.8);
   }
   100% {
     fill: rgba(255, 255, 255, 0.5);

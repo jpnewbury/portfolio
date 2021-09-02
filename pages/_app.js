@@ -18,6 +18,9 @@ export default function MyApp({ Component, pageProps, router }) {
   });
   return (
     <>
+      {/* <div className="modal">
+        <Loading style="loader" />
+      </div> */}
       {loading && (
         <div className="modal">
           <Loading style="loader" />

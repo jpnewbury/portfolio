@@ -43,7 +43,7 @@ $border: 2px solid $gray-1;
         "copy empty" 1fr
         "bottom bottom" 80%
         / 1fr 1fr;
-    background-color: $gray-3;
+    background-color: $gray-4;
     background-image: url("/1.jpeg");
     background-blend-mode: multiply;
     background-size: cover;
@@ -89,7 +89,6 @@ $border: 2px solid $gray-1;
 }
 * {
     font-family: "Montserrat", sans-serif;
-    //get rid of all box margins
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -136,7 +135,7 @@ nav {
 a,
 a:active {
     text-decoration: none;
-    color: #0071bc;
+    color: $blue;
     transition: $transition;
 }
 a:hover {
@@ -174,7 +173,10 @@ small {
 }
 .blue {
     color: $blue;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $white;
 }
+
 .brown {
     color: $color-chocolate;
 }
@@ -305,9 +307,12 @@ small {
 
     .intro {
         a {
-            margin-left: 20px;
+            color: $white;
+            margin-left: 10px;
             font-weight: 700;
-            letter-spacing: 0.2em;
+            letter-spacing: 0.3em;
+            // text-decoration: underline;
+            // text-shadow: 0px 0px 6px $color-pistachio;
         }
     }
 }
@@ -393,15 +398,6 @@ small {
         text-align: center;
     }
 }
-
-// .nav-container {
-//     position: relative;
-//     z-index: 1;
-//     background-color: #8dba70;
-//     margin: auto;
-//     max-width: 1200px;
-//     overflow: hidden;
-// }
 
 .outline {
     color: #8dba70;
@@ -689,7 +685,7 @@ small {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: rgba(white, 0.7);
+    background: rgba($gray-1, 0.8);
 }
 @keyframes loading {
     0% {
@@ -699,10 +695,10 @@ small {
         fill: rgba($white, 0.8);
     }
     50% {
-        fill: rgba($white, 1);
+        fill: rgba($color-pistachio, 1);
     }
     75% {
-        fill: rgba($white, 0.8);
+        fill: rgba($color-chocolate, 0.8);
     }
     100% {
         fill: rgba($white, 0.5);

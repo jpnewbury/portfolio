@@ -6,11 +6,11 @@ export default function pageHeading() {
       <div className="name-heading">John P. Newbury</div>
 
       <h1>
-        <span className="blue">UX</span>
+        <span className="blue">front end</span>
         <span className="outline"> Designer</span>
       </h1>
       <h2>
-        Front-end <span className="brown"> artist </span>and{" "}
+        <span className="brown"> artist </span>and{" "}
         <span className="brown">coder </span>
         solving design challenges for all users and devices.
       </h2>
