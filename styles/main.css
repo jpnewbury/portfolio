@@ -833,6 +833,11 @@ small {
   color: white;
 }
 
+.small-header h3 {
+  padding: 5px;
+  margin-left: 20px;
+}
+
 .wireframe svg {
   position: absolute;
   z-index: -10;

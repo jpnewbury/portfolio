@@ -432,6 +432,12 @@ small {
         color: $white;
     }
 }
+.small-header {
+    h3 {
+        padding: $padding;
+        margin-left: 20px;
+    }
+}
 .wireframe {
     svg {
         position: absolute;

@@ -42,7 +42,7 @@ export default function Home() {
         <span className="small-header">
           <Link href="gallery">
             <a>
-              <h3>Visit my gallery for all of my designs</h3>
+              <h3>Visit my gallery of designs ...</h3>
             </a>
           </Link>
         </span>

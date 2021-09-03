@@ -98,7 +98,7 @@ export default function Gallery() {
       <section className="design">
         <article>
           <div>
-            <h3>Seattle skyline drawn using Adobe Illustrator</h3>
+            <h3>Seattle Skyline</h3>
           </div>
           <div className="stack">
             <Image
