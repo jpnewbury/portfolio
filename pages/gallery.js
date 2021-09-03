@@ -95,38 +95,55 @@ export default function Gallery() {
         <h2>Design & Illustration</h2>
       </div>
 
-      <section className="s2">
-        <div className="grid ">
-          <article className="card2 center ">
-            <h2>A sample page design</h2>
-            <Image src="/design1.png" height={300} width={380} alt="an image" />
-            <small>
-              This design is in development as part of a book and companion SPA
-              app. (single page web app)
-            </small>
-          </article>
-          <article className="card2 center">
-            <h2>Macro invertebrate illustration</h2>
-            <Image
-              src="/drunella1.png"
-              height={300}
-              width={200}
-              alt="an image"
-            />
-
-            <small>Digital illustration for print and web</small>
-          </article>
-          <article className="card2 center">
-            <h2>Digital illustration</h2>
+      <section className="design">
+        <article>
+          <div>
+            <h3>Seattle skyline drawn using Adobe Illustrator</h3>
+          </div>
+          <div className="stack">
             <Image
               src="/SeattleSkylineCopy.png"
-              height={400}
-              width={600}
+              height={1216}
+              width={1941}
               alt="an image"
             />
-            <small>Seattle skyline drawn using Adobe Illustrator</small>
-          </article>
-        </div>
+          </div>
+          <div>
+            <small>Adobe Illustrator</small>
+          </div>
+        </article>
+        <article>
+          <div>
+            <h3> A sample mockup for an upcoming book and companion web app</h3>
+          </div>
+          <div className="stack">
+            <Image
+              src="/design1.png"
+              height={1632}
+              width={2010}
+              alt="an image"
+            />
+          </div>
+          <div>
+            <small>Adobe In Design & Illustrator</small>
+          </div>
+        </article>
+        <article>
+          <div>
+            <h3>Macro invertebrate illustration </h3>
+          </div>
+          <div className="stack">
+            <Image
+              src="/drunella1.png"
+              height={1760}
+              width={1487}
+              alt="Drunella grandis mayfly nymph illustration"
+            />
+          </div>
+          <div>
+            <small>Affinity Designer</small>
+          </div>
+        </article>
       </section>
 
       <div className="split bg-white">

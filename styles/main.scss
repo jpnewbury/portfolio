@@ -51,9 +51,7 @@
     grid-area: bottom;
     margin-left: 20px;
 }
-.bottom {
-    grid-area: bottom;
-}
+
 * {
     font-family: "Montserrat", sans-serif;
     margin: 0;
@@ -66,10 +64,7 @@ html {
 body {
     background-color: $color-pistachio;
 }
-// h3 {
-//     margin: $margin;
-//     padding-left: $padding + 20;
-// }
+
 ul {
     display: flex;
     text-decoration: none;
@@ -273,7 +268,7 @@ small {
     .intro {
         a {
             color: $white;
-            margin-left: 10px;
+            margin-left: 10%;
             font-weight: 700;
             letter-spacing: 0.3em;
             // text-decoration: underline;
@@ -296,6 +291,7 @@ small {
         display: block;
     }
 }
+
 .grid > * {
     flex: 1 1 280px;
 }
@@ -397,10 +393,6 @@ small {
         font-size: clamp(1.3rem, 2.3rem, 3vw);
     }
 }
-.s2 {
-    background: $color-chocolate;
-    padding: $padding + 20;
-}
 
 .split {
     columns: 400px 2;
@@ -413,6 +405,10 @@ small {
 
 .section__body {
     padding: $padding;
+}
+.stack {
+    display: flex;
+    flex-direction: column;
 }
 .title {
     h6 {
