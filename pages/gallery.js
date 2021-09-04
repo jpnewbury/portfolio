@@ -132,13 +132,15 @@ export default function Gallery() {
           <div>
             <h3>Macro invertebrate illustration </h3>
           </div>
-          <div className="stack">
-            <Image
-              src="/drunella1.png"
-              height={1760}
-              width={1487}
-              alt="Drunella grandis mayfly nymph illustration"
-            />
+          <div className="center">
+            <div className="stack">
+              <Image
+                src="/drunella1.png"
+                height={760}
+                width={687}
+                alt="Drunella grandis mayfly nymph illustration"
+              />
+            </div>
           </div>
           <div>
             <small>Affinity Designer</small>

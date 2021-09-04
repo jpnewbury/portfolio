@@ -407,8 +407,7 @@ small {
     padding: $padding;
 }
 .stack {
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 .title {
     h6 {
