@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import GalleryLink from "../components/galleryLink";
 import Background from "../components/background";
 import Heading from "../components/pageHeading";
 import Learn from "../components/svg/learn";
@@ -9,7 +11,6 @@ import Indesign from "../components/svg/inDesign";
 import Aftereffects from "../components/svg/AfterEffects";
 import Premiere from "../components/svg/Premiere";
 import Xd from "../components/svg/xd";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -121,34 +122,7 @@ export default function Home() {
             </p>
           </article>
         </section>
-        <span className="small-header">
-          <Link href="gallery">
-            <a>
-              <h3>Visit my gallery for all of my designs</h3>
-            </a>
-          </Link>
-        </span>
-        <div className="center">
-          <div className="grid">
-            <article className="card2">
-              <h2>Design & Illustration</h2>
-              <img src="SeattleSkylineCopy.png" width="100%" alt="an image" />
-              <small>Illustration and Graphics</small>
-            </article>
-
-            <article className="card2">
-              <h2>Photography</h2>
-              <img src="gossips.jpg" width="100%" alt="an image" />
-              <small>Mountains, Rivers and Deserts</small>
-            </article>
-
-            <article className="card2">
-              <h2>Fine Art</h2>
-              <img src="Spell2.jpg" width="100%" alt="an image" />
-              <small>Painting and Drawings</small>
-            </article>
-          </div>
-        </div>
+        <GalleryLink />
       </section>
       <section className="center s2">
         <Social />

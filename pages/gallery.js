@@ -276,11 +276,11 @@ export default function Gallery() {
         </div>
       </section>
 
+      <span id="art" />
       <div className="page-intro">
         <h2>Fine Art</h2>
       </div>
       <section className="section3 bg-white">
-        <span id="art" />
         <div>
           <Image
             src="/Spell2.jpg"

@@ -3,6 +3,7 @@ import Image from "next/image";
 import Background from "../components/background";
 import Heading from "../components/pageHeading";
 import Social from "../components/social";
+import GalleryLink from "../components/galleryLink";
 
 export default function Home() {
   return (
@@ -39,34 +40,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <span className="small-header">
-          <Link href="gallery">
-            <a>
-              <h3>Visit my gallery of designs ...</h3>
-            </a>
-          </Link>
-        </span>
-        <div className="center">
-          <div className="grid">
-            <article className="card2">
-              <h2>Design & Illustration</h2>
-              <img src="SeattleSkylineCopy.png" width="100%" alt="an image" />
-              <small>Illustration and Graphics</small>
-            </article>
 
-            <article className="card2">
-              <h2>Photography</h2>
-              <img src="gossips.jpg" width="100%" alt="an image" />
-              <small>Mountains, Rivers and Deserts</small>
-            </article>
-
-            <article className="card2">
-              <h2>Fine Art</h2>
-              <img src="Spell2.jpg" width="100%" alt="an image" />
-              <small>Painting and Drawings</small>
-            </article>
-          </div>
-        </div>
+        <GalleryLink />
       </section>
     </div>
   );
