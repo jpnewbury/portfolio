@@ -114,6 +114,22 @@ export default function Gallery() {
         </article>
         <article>
           <div>
+            <h3>Castle Valley</h3>
+          </div>
+          <div className="stack">
+            <Image
+              src="/castleValley.png"
+              height={720}
+              width={1280}
+              alt="Illustrator drawn image of Castle Valley in Utah"
+            />
+          </div>
+          <div>
+            <small>Adobe Illustrator</small>
+          </div>
+        </article>
+        <article>
+          <div>
             <h3> A sample mockup for an upcoming book and companion web app</h3>
           </div>
           <div className="stack">
@@ -270,12 +286,14 @@ export default function Gallery() {
               work,{" "}
               <a href="https://flyfish-pied.vercel.app/">
                 &nbsp;please visit my fly fishing website.
-              </a>
+              </a>{" "}
+              <br />
+              All content on this and my angling arts website is hand crafted by
+              myself.
             </p>
           </div>
         </div>
       </section>
-
       <span id="art" />
       <div className="page-intro">
         <h2>Fine Art</h2>
