@@ -544,7 +544,7 @@ small {
 }
 
 .card2:hover {
-  background: rgba(0, 113, 188, 0.2);
+  background: rgba(255, 255, 255, 0.2);
   cursor: pointer;
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 10px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
           box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 10px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
