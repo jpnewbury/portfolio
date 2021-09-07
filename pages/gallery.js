@@ -26,7 +26,7 @@ export default function Gallery() {
       <section className="grid">
         <Link href="#design">
           <article className="card">
-            <h2>Design & Illustration</h2>
+            <h2>Illustration</h2>
             <img src="SeattleSkylineCopy.png" width="100%" alt="an image" />
             <small>Illustration and Graphics</small>
           </article>
@@ -114,7 +114,7 @@ export default function Gallery() {
         </article>
         <article>
           <div>
-            <h3>Castle Valley</h3>
+            <h3>Convergance at Castle Valley</h3>
           </div>
           <div className="stack">
             <Image
