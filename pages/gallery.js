@@ -46,18 +46,29 @@ export default function Gallery() {
           </article>
         </Link>
       </section>
+      {/* <section>
+        <article className="blockquote">
+          <p>
+            Reducing a scene to its basic shapes, colors, and value is the
+            foundation of good design. Designing a document holds the same
+            process as painting on a canvas. A good design has a lead-in point
+            that catches the users eye and directs it through the page hierarchy
+            to tell the story, invoke an emotional response, or convey an idea.
+          </p>
+        </article>
+      </section> */}
       <section className="split bg-white" id="article">
+        <span className="intro">
+          <p>
+            Small details can have an impact on how a user experiences your
+            website or app. Frequently overlooked details such as form fields
+            which present the wrong keyboard layout can cause a user to leave
+            your website or never return due to a subconsciously negative
+            experience. How long a user spends searching for an @ sign when
+            filling out an email field can impact the overall user experience.
+          </p>
+        </span>
         <article>
-          <span className="intro">
-            <p>
-              Small details can have an impact on how a user experiences your
-              website or app. Frequently overlooked details such as form fields
-              which present the wrong keyboard layout can cause a user to leave
-              your website or never return due to a subconsciously negative
-              experience. How long a user spends searching for an @ sign when
-              filling out an email field can impact the overall user experience.
-            </p>
-          </span>
           <p>
             To build engaging and equitable websites, I employ design thinking
             and user interaction research. Designs that are clear and concise
