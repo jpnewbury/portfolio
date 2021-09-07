@@ -277,8 +277,12 @@ small {
     }
 }
 .intro ::first-letter {
-    font-size: clamp(1.7rem, 2.1rem, 3vw); /* min, val, max */
+    // font-size: clamp(1.7rem, 2.1rem, 3vw); /* min, val, max */
     font-weight: 500;
+    font-size: 4em;
+    float: left;
+    line-height: 1.1;
+    margin-right: 0.5rem;
 }
 .col5 {
     @include block;
