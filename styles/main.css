@@ -656,13 +656,13 @@ small {
 
 .grid > * {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 280px;
-          flex: 1 1 280px;
+      -ms-flex: 1 1 180px;
+          flex: 1 1 180px;
 }
 
 .grid {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -672,6 +672,9 @@ small {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header {

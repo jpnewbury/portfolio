@@ -293,14 +293,15 @@ small {
 }
 
 .grid > * {
-    flex: 1 1 280px;
+    flex: 1 1 180px;
 }
 .grid {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .header {
     background-color: rgba($black, 0.4);
