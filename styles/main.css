@@ -379,6 +379,11 @@ li {
 }
 
 nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
