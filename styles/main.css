@@ -6,7 +6,7 @@
 }
 
 .s2 {
-  background: #050302;
+  background: #221c18;
   padding: 25px;
 }
 
@@ -214,10 +214,10 @@
     fill: rgba(255, 255, 255, 0.8);
   }
   50% {
-    fill: #d8eec9;
+    fill: #94ac84;
   }
   75% {
-    fill: rgba(5, 3, 2, 0.8);
+    fill: rgba(34, 28, 24, 0.8);
   }
   100% {
     fill: rgba(255, 255, 255, 0.5);
@@ -232,10 +232,10 @@
     fill: rgba(255, 255, 255, 0.8);
   }
   50% {
-    fill: #d8eec9;
+    fill: #94ac84;
   }
   75% {
-    fill: rgba(5, 3, 2, 0.8);
+    fill: rgba(34, 28, 24, 0.8);
   }
   100% {
     fill: rgba(255, 255, 255, 0.5);
@@ -294,7 +294,7 @@
   margin: auto;
   padding: 10px;
   width: 80%;
-  fill: #d8eec9;
+  fill: #94ac84;
   z-index: -1;
 }
 
@@ -360,7 +360,7 @@ html {
 }
 
 body {
-  background-color: #d8eec9;
+  background-color: #94ac84;
 }
 
 ul {
@@ -485,7 +485,7 @@ small {
 }
 
 .brown {
-  color: #050302;
+  color: #221c18;
 }
 
 .card {
@@ -739,7 +739,7 @@ small {
 }
 
 .hero a:hover {
-  color: #d8eec9;
+  color: #94ac84;
 }
 
 .icon {
