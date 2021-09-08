@@ -11,7 +11,7 @@ import Social from "../components/social";
 
 export default function Gallery() {
   return (
-    <div className="container" id="top">
+    <div className="container links" id="top">
       <section>
         <div className="wireframe">
           <Background />
