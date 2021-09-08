@@ -6,7 +6,7 @@
 }
 
 .s2 {
-  background: #3d332b;
+  background: #050302;
   padding: 25px;
 }
 
@@ -214,10 +214,10 @@
     fill: rgba(255, 255, 255, 0.8);
   }
   50% {
-    fill: #a4b797;
+    fill: #d8eec9;
   }
   75% {
-    fill: rgba(61, 51, 43, 0.8);
+    fill: rgba(5, 3, 2, 0.8);
   }
   100% {
     fill: rgba(255, 255, 255, 0.5);
@@ -232,10 +232,10 @@
     fill: rgba(255, 255, 255, 0.8);
   }
   50% {
-    fill: #a4b797;
+    fill: #d8eec9;
   }
   75% {
-    fill: rgba(61, 51, 43, 0.8);
+    fill: rgba(5, 3, 2, 0.8);
   }
   100% {
     fill: rgba(255, 255, 255, 0.5);
@@ -294,7 +294,7 @@
   margin: auto;
   padding: 10px;
   width: 80%;
-  fill: #a4b797;
+  fill: #d8eec9;
   z-index: -1;
 }
 
@@ -360,7 +360,7 @@ html {
 }
 
 body {
-  background-color: #a4b797;
+  background-color: #d8eec9;
 }
 
 ul {
@@ -382,7 +382,7 @@ nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-image: linear-gradient(280deg, #8dba70 10%, #e1e1e1 70%);
+  background-image: linear-gradient(280deg, #8dba70 10%, #323232 40%);
   height: 40px;
   text-transform: uppercase;
   font-weight: 600;
@@ -406,7 +406,7 @@ nav li {
 a,
 a:active {
   text-decoration: none;
-  color: #0071bc;
+  color: white;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -414,7 +414,7 @@ a:active {
 a:hover {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  color: #108b00;
+  color: #0071bc;
 }
 
 img {
@@ -485,7 +485,7 @@ small {
 }
 
 .brown {
-  color: #3d332b;
+  color: #050302;
 }
 
 .card {
@@ -612,7 +612,7 @@ small {
 .container {
   position: relative;
   z-index: 1;
-  background-color: #8dba70;
+  background-color: #678850;
   margin: auto;
   max-width: 1200px;
   min-height: 100vh;
@@ -739,7 +739,7 @@ small {
 }
 
 .hero a:hover {
-  color: #a4b797;
+  color: #d8eec9;
 }
 
 .icon {
@@ -789,7 +789,7 @@ small {
 }
 
 .name-heading {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
   font-family: "Courgette", cursive;
   font-size: 1.5rem;
   padding-left: 10px;

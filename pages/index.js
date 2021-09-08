@@ -4,10 +4,20 @@ import Background from "../components/background";
 import Heading from "../components/pageHeading";
 import Social from "../components/social";
 import GalleryLink from "../components/galleryLink";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <div className="container">
+      <Head>
+        <title>John P. Newbury - Designer</title>
+        <meta
+          property="og:title"
+          content="John P. Newbury - Designer"
+          key="title"
+        />
+      </Head>
+
       <section>
         <div className="wireframe">
           <Background />
