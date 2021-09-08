@@ -20,21 +20,21 @@ export default function social() {
           <Linked style="icon" />
         </a>
       </Link>
-      <Link href="https://dribbble.com/newburydesign">
+      {/* <Link href="https://dribbble.com/newburydesign">
         <a>
           <Dribbble style="icon" />
         </a>
-      </Link>
+      </Link> */}
       <Link href="https://www.instagram.com/jpnewbury/">
         <a>
           <Instagram style="icon" />
         </a>
       </Link>
-      <Link href="https://www.behance.net/jpnewbury">
+      {/* <Link href="https://www.behance.net/jpnewbury">
         <a>
           <Behance style="icon" />
         </a>
-      </Link>
+      </Link> */}
       <Link href="https://github.com/jpnewbury">
         <a>
           <Github style="icon" />
