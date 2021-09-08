@@ -107,7 +107,7 @@ export default function Home() {
               <li>Github</li>
             </ul>
           </article>
-          <article>
+          <article className="links">
             <p>
               When not writing code or painting, I can be found waist deep in a
               cold river fly fishing. I am a signature fly designer for &nbsp;

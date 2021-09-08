@@ -747,6 +747,10 @@ small {
   color: #a3b696;
 }
 
+.links a {
+  color: #0071bc;
+}
+
 .icon {
   cursor: pointer;
   margin: 7px;
