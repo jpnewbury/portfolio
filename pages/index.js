@@ -37,7 +37,7 @@ export default function Home() {
                     perception of your design. Can your site compensate for
                     previous experiences, or does it merely add to the mounting
                     frustration of encountering poorly designed websites?
-                    <Link href="/gallery">
+                    <Link href="/gallery#article">
                       <a> More...</a>
                     </Link>
                   </p>
