@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
 import GalleryLink from "../components/galleryLink";
 import Background from "../components/background";
 import Heading from "../components/pageHeading";
@@ -9,7 +7,6 @@ import Photoshop from "../components/svg/photoshop";
 import Illustrator from "../components/svg/illustrator";
 import Indesign from "../components/svg/inDesign";
 import Aftereffects from "../components/svg/AfterEffects";
-import Premiere from "../components/svg/Premiere";
 import Xd from "../components/svg/xd";
 
 export default function Home() {
@@ -37,8 +34,6 @@ export default function Home() {
               <div className="bottom"></div>
             </div>
           </div>
-        </div>
-        <section>
           <nav>
             <ul>
               <li>
@@ -51,6 +46,20 @@ export default function Home() {
               </li>
             </ul>
           </nav>
+        </div>
+        <section>
+          {/* <nav>
+            <ul>
+              <li>
+                <a href="mailto:john.newbury@gmail.com">Contact</a>
+              </li>
+              <li>
+                <a href="https://www.dropbox.com/s/7xo88x48pgs6h6w/JohnPNewburyResume2021.pdf?dl=0">
+                  Resume
+                </a>
+              </li>
+            </ul>
+          </nav> */}
         </section>
         <section className="split bg-white">
           <article>
@@ -106,6 +115,11 @@ export default function Home() {
               <li>VS Code</li>
               <li>Github</li>
             </ul>
+          </article>
+          <article>
+            <p>
+              This website coded using <b>Next.JS</b> and <b>SCSS</b>
+            </p>
           </article>
           <article className="links">
             <p>
