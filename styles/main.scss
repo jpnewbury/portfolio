@@ -237,6 +237,10 @@ small {
     transition: $transition;
     border-radius: 13px;
 }
+.design {
+    color: $white;
+    background-color: $gray-2;
+}
 .gallery {
     display: flex;
     flex-direction: column;
@@ -271,7 +275,16 @@ small {
     display: grid;
     place-content: center;
 }
-
+.middle {
+    display: grid;
+    place-content: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+}
+.multiply {
+    mix-blend-mode: multiply;
+}
 .content {
     z-index: 100;
     margin: 20px;

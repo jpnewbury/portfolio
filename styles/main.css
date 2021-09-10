@@ -553,6 +553,11 @@ small {
   border-radius: 13px;
 }
 
+.design {
+  color: white;
+  background-color: #4b4b4b;
+}
+
 .gallery {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -602,6 +607,19 @@ small {
   display: -ms-grid;
   display: grid;
   place-content: center;
+}
+
+.middle {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.multiply {
+  mix-blend-mode: multiply;
 }
 
 .content {
