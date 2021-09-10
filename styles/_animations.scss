@@ -62,12 +62,6 @@
     fill: #42210b;
 }
 
-.phone-1,
-.phone-2,
-.phone-3,
-.phone-4,
-.phone-5 {
-}
 .phone-1 {
     animation-name: phone;
     animation-duration: 2.5s;
@@ -106,19 +100,20 @@
 }
 @keyframes loading {
     0% {
-        fill: rgba($white, 0.5);
+        fill: rgba($blue, 0.5);
     }
     25% {
         fill: rgba($white, 0.8);
     }
     50% {
         fill: rgba($color-pistachio, 1);
+        transform: translateX(1px);
     }
     75% {
         fill: rgba($color-chocolate, 0.8);
     }
     100% {
-        fill: rgba($white, 0.5);
+        fill: rgba($blue, 0.5);
     }
 }
 .loader {

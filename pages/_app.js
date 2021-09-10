@@ -9,12 +9,12 @@ export default function MyApp({ Component, pageProps, router }) {
   // loading screen when route changes
   const [loading, setLoading] = useState(false);
   Router.events.on("routeChangeStart", (url) => {
-    console.log("Loading started");
+    // console.log("Loading started");
     setLoading(true);
   });
   Router.events.on("routeChangeComplete", () => {
     setLoading(false);
-    console.log("Loading stopped");
+    // console.log("Loading stopped");
   });
   return (
     <>

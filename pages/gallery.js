@@ -12,6 +12,14 @@ import Social from "../components/social";
 export default function Gallery() {
   return (
     <div className="container links" id="top">
+      <Head>
+        <title>John P. Newbury - Gallery</title>
+        <meta
+          property="og:title"
+          content="John P. Newbury - Designer"
+          key="title"
+        />
+      </Head>
       <section>
         <div className="wireframe">
           <Background />
@@ -46,17 +54,7 @@ export default function Gallery() {
           </article>
         </Link>
       </section>
-      {/* <section>
-        <article className="blockquote">
-          <p>
-            Reducing a scene to its basic shapes, colors, and value is the
-            foundation of good design. Designing a document holds the same
-            process as painting on a canvas. A good design has a lead-in point
-            that catches the users eye and directs it through the page hierarchy
-            to tell the story, invoke an emotional response, or convey an idea.
-          </p>
-        </article>
-      </section> */}
+
       <section className="split bg-white" id="article">
         <span className="intro">
           <p>

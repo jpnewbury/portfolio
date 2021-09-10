@@ -8,10 +8,19 @@ import Illustrator from "../components/svg/illustrator";
 import Indesign from "../components/svg/inDesign";
 import Aftereffects from "../components/svg/AfterEffects";
 import Xd from "../components/svg/xd";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <div className="container">
+      <Head>
+        <title>John P. Newbury - About</title>
+        <meta
+          property="og:title"
+          content="John P. Newbury - Designer"
+          key="title"
+        />
+      </Head>
       <section>
         <div className="wireframe">
           <Background />
@@ -47,20 +56,6 @@ export default function Home() {
             </ul>
           </nav>
         </div>
-        <section>
-          {/* <nav>
-            <ul>
-              <li>
-                <a href="mailto:john.newbury@gmail.com">Contact</a>
-              </li>
-              <li>
-                <a href="https://www.dropbox.com/s/7xo88x48pgs6h6w/JohnPNewburyResume2021.pdf?dl=0">
-                  Resume
-                </a>
-              </li>
-            </ul>
-          </nav> */}
-        </section>
         <section className="split bg-white">
           <article>
             <span className="intro">

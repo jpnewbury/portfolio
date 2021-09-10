@@ -8,7 +8,7 @@ export default function loading(props) {
           <circle className="loader-st3" cx="47" cy="33.7" r="7" />
         </g>
       </svg>
-      <p>Fetching data...</p>
+      <p>One Moment...</p>
     </div>
   );
 }

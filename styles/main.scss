@@ -1,4 +1,4 @@
-@import "./sections";
+@use "./sections";
 @import "./variables";
 @import "./animations";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;900&display=swap");
@@ -261,7 +261,7 @@ small {
 .container {
     position: relative;
     z-index: 1;
-    background-color: #678850;
+    background-color: #86b664;
     margin: auto;
     max-width: 1200px;
     min-height: 100vh;
@@ -393,7 +393,6 @@ small {
     grid-template-columns: repeat(9, 1fr [col-start]);
 }
 
-// Laoding screen and animations
 .loader {
     height: 350px;
     width: 350px;
